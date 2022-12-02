@@ -13,7 +13,7 @@ import pandas as pd
 import datetime
 
 def main():
-    browser = wa.alloc_browser(True)
+    browser = wa.alloc_browser(not os.environ.get('DISPLAY'))
     sfolder = './scripts'
     archive_folder = datetime.datetime.now().strftime('./archive/%Y%m/%Y%m%d_%H')
     os.makedirs(archive_folder, exist_ok=True)
