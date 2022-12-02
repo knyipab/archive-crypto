@@ -1,0 +1,26 @@
+name: archive
+run-name: Archive Websites
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+    - cron: "0 6 * * *"
+    - cron: "0 12 * * *"
+    - cron: "0 18 * * *"
+jobs:
+  Archive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: browser-actions/setup-chrome@latest
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.9.7'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - run: python main.py
+      - run: git config user.name github-actions
+      - run: git config user.email github-actions@github.com
+      - run: git add -A
+      - run: git diff-index --quiet HEAD || git commit -am "archived"
+      - run: git push
