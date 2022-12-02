@@ -15,7 +15,7 @@ import datetime
 def main():
     browser = wa.alloc_browser(True)
     sfolder = './scripts'
-    archive_folder = './archive/' + datetime.datetime.now().strftime('%Y%m')
+    archive_folder = datetime.datetime.now().strftime('./archive/%Y%m/%Y%m%d_%H')
     os.makedirs(archive_folder, exist_ok=True)
     packages = [f.split('.')[0] for f in os.listdir(sfolder) if os.path.isfile(os.path.join(sfolder, f))]
     modules = {p: importlib.import_module(sfolder.split('/')[-1] + '.' + p) for p in packages}
