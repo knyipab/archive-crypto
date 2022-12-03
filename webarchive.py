@@ -27,13 +27,15 @@ class Browser(Chrome):
             url = urljoin('{uri.scheme}://{uri.netloc}/'.format(uri=uri), url)
         return super().get(url)
 
-    def retry(self, url: str, max_attempt: int = 4):
-        try:
-            r = self.get(url)
-            return r
-        except Exception as e:
-            warnings.warn(str(e), stacklevel=2)
-        raise Exception(f'retry failed for {url}')
+    def retry(self, url: str, max_attempt: int = 3, cooldown: int = 3, cooldown_pow = 2):
+        for i in range(0, max_attempt):
+            try:
+                time.sleep(cooldown * (i ** cooldown_pow))
+                r = self.get(url)
+                return r
+            except Exception as e:
+                warnings.warn(str(e), stacklevel=2)
+            raise Exception(f'retry failed for {url}')
 
     def retry_until_requests(self, url: str, pat: str = '', timeout: [int, float] = 20, max_attempt: int = 4, cooldown: int = 3, timeout_pow = 0.75, cooldown_pow = 2):
         for i in range(0, max_attempt):
