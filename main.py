@@ -20,13 +20,6 @@ def main():
     packages = [f.split('.')[0] for f in os.listdir(sfolder) if os.path.isfile(os.path.join(sfolder, f))]
     modules = {p: importlib.import_module(sfolder.split('/')[-1] + '.' + p) for p in packages}
     exit_code = 1
-    for name, module in modules.items():
-        try:
-            if hasattr(module, 'archive'):
-                module.archive(browser, wa, archive_folder)
-        except Exception as e:
-            traceback.print_exc()
-            exit_code = 1
     try:
         browser.retry('https://www.coingecko.com/en/categories/stablecoins')
         df_top_stablecoins = pd.read_html(browser.page_source)[0].eval("mktcap = `Market Capitalization`.replace('[^0-9]','',regex=True).replace('','0').astype('int')")
@@ -37,6 +30,14 @@ def main():
     except Exception as e:
         traceback.print_exc()
         exit_code = 1
+    
+    for name, module in modules.items():
+        try:
+            if hasattr(module, 'archive'):
+                module.archive(browser, wa, archive_folder)
+        except Exception as e:
+            traceback.print_exc()
+            exit_code = 1
     
     browser.quit()
     
