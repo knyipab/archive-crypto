@@ -18,11 +18,12 @@ jobs:
           python-version: '3.9'
           cache: 'pip'
       - run: pip install -r requirements.txt
-      - run: EXIT_CODE=$(python main.py)
-      - run: |
+      - run: python3 main.py
+      - name: auto-push to github
+        if: always()
+        run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A
           git diff-index --quiet HEAD || git commit -am "archived"
           git push
-      - run: exit $EXIT_CODE
