@@ -17,10 +17,12 @@ jobs:
         with:
           python-version: '3.9'
           cache: 'pip'
-      - run: pip install -r requirements.txt
-      - run: python main.py
-      - run: git config user.name github-actions
-      - run: git config user.email github-actions@github.com
-      - run: git add -A
-      - run: git diff-index --quiet HEAD || git commit -am "archived"
-      - run: git push
+      - run: |
+        pip install -r requirements.txt
+        EXIT_CODE=$(python main.py)
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add -A
+        git diff-index --quiet HEAD || git commit -am "archived"
+        git push
+        exit $EXIT_CODE
