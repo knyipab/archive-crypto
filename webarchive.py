@@ -29,7 +29,7 @@ class Browser(Chrome):
 
     def retry(self, url: str, max_attempt: int = 4):
         try:
-            self.get(url)
+            r = self.get(url)
             return r
         except Exception as e:
             warnings.warn(str(e), stacklevel=2)
