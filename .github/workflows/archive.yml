@@ -19,7 +19,6 @@ jobs:
           cache: 'pip'
       - run: pip install -r requirements.txt
       - run: EXIT_CODE=$(python main.py)
-      - name: auto-push to github
       - run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
