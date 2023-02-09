@@ -11,6 +11,7 @@ import os
 import importlib
 import pandas as pd
 import datetime
+import requests
 
 def main():
     browser = wa.alloc_browser(not os.environ.get('DISPLAY'))
@@ -21,9 +22,11 @@ def main():
     modules = {p: importlib.import_module(sfolder.split('/')[-1] + '.' + p) for p in packages}
     exit_code = 0
     try:
-        browser.retry('https://www.coingecko.com/en/categories/stablecoins')
-        df_top_stablecoins = pd.read_html(browser.page_source)[0].eval("mktcap = `Market Capitalization`.replace('[^0-9]','',regex=True).replace('','0').astype('int')")
-        above_75mil = df_top_stablecoins.query("mktcap > 75000000").eval("Coin.str.split(' ').str[-1]").to_list()
+        df_top_stablecoins = pd.DataFrame(requests.get('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&category=stablecoins&order=market_cap_desc&per_page=100&page=1&sparkline=false').json())
+        above_75mil = df_top_stablecoins.query("market_cap > 75000000").eval('symbol.str.upper()').to_list()
+        #browser.retry('https://www.coingecko.com/en/categories/stablecoins')
+        #df_top_stablecoins = pd.read_html(browser.page_source)[0].eval("mktcap = `Market Capitalization`.replace('[^0-9]','',regex=True).replace('','0').astype('int')")
+        #above_75mil = df_top_stablecoins.query("mktcap > 75000000").eval("Coin.str.split(' ').str[-1]").to_list()
         if not set(above_75mil).issubset(set(packages)):
             warnings.warn(f'{set(above_75mil) - set(packages)} has market cap of $75mil+ but missing')
             exit_code = 1
