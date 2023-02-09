@@ -3,3 +3,4 @@ numpy
 requests
 lxml
 selenium-wire
+html5lib
