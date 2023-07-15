@@ -1,0 +1,3783 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://tracker-vaults.makerdao.network/
+Subject: MCD Vaults Tracker
+Date: Sat, 15 Jul 2023 18:25:09 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--XltSfeKDha3yxaqWot69ZKZO5bicY0EA8VQYklsI0X----"
+
+
+------MultipartBoundary--XltSfeKDha3yxaqWot69ZKZO5bicY0EA8VQYklsI0X----
+Content-Type: text/html
+Content-ID: <frame-E80A402F4BC459807FDF16244E39E54A@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://tracker-vaults.makerdao.network/
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-d85a00f0-6c6c-4358-9e93-607c65828341@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-19ba22aa-c3ed-4339=
+-b904-7ee0e3481e66@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css=
+" href=3D"cid:css-9f8caacf-ef25-4e91-8fdf-83b07de47349@mhtml.blink" />
+   =20
+<meta name=3D"viewport" content=3D"width=3Ddevice-width">
+
+
+
+
+
+
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://tracker-vaults.m=
+akerdao.network/static/tf_apps.css">
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://tracker-vaults.m=
+akerdao.network/static/dataTables.min.css">
+<link rel=3D"shortcut icon" href=3D"https://tracker-vaults.makerdao.network=
+/static/favicon.ico" type=3D"image/x-icon">
+<link rel=3D"icon" href=3D"https://tracker-vaults.makerdao.network/static/f=
+avicon.ico" type=3D"image/x-icon">
+<link rel=3D"stylesheet" href=3D"https://cdnjs.cloudflare.com/ajax/libs/fon=
+t-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>MCD Vaults Tracker</title>
+</head>
+<body>
+
+    <div class=3D"dashboard">
+
+        <div class=3D"header shadow">
+            <!-- <a href=3D"/" class=3D"logo-container"><img class=3D"logo"=
+ src=3D"/static/logo_no_bg.png"></a>
+<div class=3D"title-form-container">
+
+    <div class=3D"title-container">
+
+        <div class=3D"main_title">MCD Vaults Tracker</div>
+        <div class=3D"refresh">Last data refresh: 17,683,723 / 2023-07-13 0=
+9:34:23 UTC</div>
+
+    </div>
+
+
+    <div class=3D"form-container">
+
+            <div style=3D"height: 60%;">
+                <img style=3D'padding-right: 5px; float: right;' src=3D"/st=
+atic/powered_by_tf_no_bg.png"/>
+            </div>
+
+            <div style=3D"display: flex;">
+                <div class=3D"container" style=3D"float: right; width: 100p=
+x;">
+                    <div class=3D"vertical-center">
+                        <a style=3D"text-decoration: none;" href=3D"/histor=
+y">History</a><br>
+                    </div>
+                </div>
+               =20
+                    <div style=3D"margin-top: 0; float: right;">
+                        <form method=3D'post'>
+                            <input type=3D"hidden" name=3D"csrf_token" valu=
+e=3D"IjdhOTc1NjQxNGU3MjNlZjYzZDg2ZGFjODk2YjBkOWQ5MWRhZmNjMjgi.ZLLkfw.lDnfH0=
+njdEjPs8BtRjGtxh8C6_c"/>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <button class=3D'simple-button' typ=
+e=3D'submit'><i class=3D'fa fa-search'></i></button>
+                                    </td>
+                                    <td>
+                                        <input id=3D"search" name=3D"search=
+" placeholder=3D"Vault id" type=3D"text" value=3D"">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+               =20
+            </div>
+
+    </div>
+
+
+</div> -->
+
+<a href=3D"https://tracker-vaults.makerdao.network/" class=3D"logo-containe=
+r"><img alt=3D"logo" class=3D"logo" src=3D"https://tracker-vaults.makerdao.=
+network/static/logo_no_bg.png"></a>
+
+<div class=3D"title-form-container">
+
+    <div style=3D"width: 100%; overflow: hidden">
+
+        <div style=3D"width: 50%; float:left;">
+            <div class=3D"main_title">MCD Vaults Tracker</div>
+            <div class=3D"refresh">Last refresh: 17,683,723 / 2023-07-13 09=
+:34:23 UTC</div>
+        </div>
+
+        <div style=3D"width: 50%; float:left;">
+
+            <div style=3D"float: right;">
+                <div style=3D"width: 100%; overflow: hidden">
+
+
+                    <div style=3D"float:left; margin-top: 20px; margin-righ=
+t: 20px;">
+
+                            <a style=3D"text-decoration: none;" href=3D"htt=
+ps://tracker-vaults.makerdao.network/history">Vaults history</a>
+
+                    </div>
+                    <!-- next menu items -->
+                    <div style=3D"float:left; margin-top: 12px;">
+                           =20
+                                <form method=3D"post">
+                                   =20
+                                    <table>
+                                        <tbody><tr>
+                                            <td>
+                                                <button class=3D"simple-but=
+ton" type=3D"submit"><i class=3D"fa fa-search"></i></button>
+                                            </td>
+                                            <td>
+                                                <input id=3D"search" name=
+=3D"search" placeholder=3D"Vault id" type=3D"text" value=3D"">
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                </form>
+                           =20
+                    </div>
+                               =20
+
+                </div>
+            </div>
+
+        </div>
+
+       =20
+
+    </div>
+    <div style=3D"width: 215px;">
+        <img style=3D"padding-right: 5px; float: right;" src=3D"https://tra=
+cker-vaults.makerdao.network/static/powered_by_tf_no_bg.png">
+    </div>
+
+</div>
+        </div>
+
+        <div class=3D"split-contents">
+            <div class=3D"left_panel shadow">
+
+                <div id=3D"data_html" style=3D"display: contents;">
+                            <div class=3D"kpi shadow">
+                                <div class=3D"inner_left">
+                                    <div class=3D"kpi_label">Number of acti=
+ve vaults:</div>
+                                    <span class=3D"expose">2,288</span> (to=
+tal: 31,395)
+                                </div>
+                                <div class=3D"inner_right">
+                                    <div class=3D"right-bottom" style=3D"fo=
+nt-size: 12px;">
+                                        Number of owners: <b>33</b><br>
+                                        Active owners: <b>29</b><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=3D"kpi shadow">
+                                <div class=3D"inner_left">
+                                    <div class=3D"kpi_label">Total debt:</d=
+iv>
+                                    <span class=3D"expose">4,670,572,912.16=
+</span> DAI
+                                </div>
+                                <div class=3D"inner_right">
+                                    <div class=3D"right-bottom" style=3D"fo=
+nt-size: 12px;">
+                                        Debt ceiling: <b>6,433,863,255</b> =
+DAI<br>
+                                        Debt ceiling utilization: <b>72.59%=
+</b><br>
+                                        System debt: <b>28,132,389.18</b> D=
+AI
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=3D"kpi shadow">
+                                <div class=3D"inner_left">
+                                    <div class=3D"kpi_label">Total collater=
+alization:</div>
+                                    <span class=3D"expose">121.45%</span><b=
+r>
+                                </div>
+                                <div class=3D"inner_right">
+                                    <div class=3D"right-bottom" style=3D"fo=
+nt-size: 12px;">
+                                        Total locked value: <b>5,672,291,11=
+1.22</b> USD<br>
+                                        Available collateral: <b>140,739,21=
+6.31</b> USD<br>
+                                        Available debt: <b>-796,656,916.95<=
+/b> DAI<br>
+                                    </div>
+                                </div>
+                                <div class=3D"part_line" style=3D"width: %"=
+></div>
+                            </div>
+                        </div>
+
+                <div id=3D"graph-box-2" style=3D"visibility: visible; width=
+: 100%;">
+                    <div class=3D"kpi shadow">
+                            <!-- <h3 style=3D"margin-top: 30px; margin-left=
+: 10px;">DAI collateral split</h3> -->
+                           =20
+                            <div class=3D"inner_left js-plotly-plot" style=
+=3D"max-width: 642px; margin: auto;" id=3D"pie">
+                               =20
+                                <div class=3D"plot-container plotly"><div c=
+lass=3D"user-select-none svg-container" style=3D"position: relative; width:=
+ 500px; height: 400px;"><svg class=3D"main-svg" xmlns=3D"http://www.w3.org/=
+2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xlink" width=3D"500" height=
+=3D"400" style=3D"background: transparent;"><defs id=3D"defs-6c787e"><g cla=
+ss=3D"clips"></g><g class=3D"gradients"></g></defs><g class=3D"bglayer"></g=
+><g class=3D"draglayer"></g><g class=3D"layer-below"><g class=3D"imagelayer=
+"></g><g class=3D"shapelayer"></g></g><g class=3D"cartesianlayer"></g><g cl=
+ass=3D"polarlayer"></g><g class=3D"ternarylayer"></g><g class=3D"geolayer">=
+</g><g class=3D"funnelarealayer"></g><g class=3D"pielayer"><g class=3D"trac=
+e" stroke-linejoin=3D"round" style=3D"opacity: 1;"><g class=3D"slice"><path=
+ class=3D"surface" d=3D"M188.20155127563277,203.23167598297618a33,33 0 1 0 =
+32.29844872436722,-26.231675982976185l0,-77a110,110 0 1 1 -107.661495747890=
+74,87.43891994325395Z" style=3D"pointer-events: all; stroke-width: 0; fill:=
+ rgb(26, 171, 155); fill-opacity: 1; stroke: rgb(68, 68, 68); stroke-opacit=
+y: 1;"></path><g class=3D"slicetext"><text data-notex=3D"1" class=3D"slicet=
+ext" transform=3D"translate(265.41406950233346,269.501244110548)" text-anch=
+or=3D"middle" data-unformatted=3D"78.3%" data-math=3D"N" x=3D"0" y=3D"0" st=
+yle=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font=
+-size: 12px; fill: rgb(255, 255, 255); fill-opacity: 1; white-space: pre;">=
+78.3%</text></g></g><g class=3D"slice"><path class=3D"surface" d=3D"M220.5,=
+177a33,33 0 0 0 -32.29844872436722,26.231675982976167l-75.3630470235235,-15=
+.79275603972227a110,110 0 0 1 107.66149574789073,-87.4389199432539Z" style=
+=3D"pointer-events: all; stroke-width: 0; fill: rgb(221, 221, 221); fill-op=
+acity: 1; stroke: rgb(68, 68, 68); stroke-opacity: 1;"></path><g class=3D"s=
+licetext"><text data-notex=3D"1" class=3D"slicetext" transform=3D"translate=
+(175.26171174766654,158.498755889452)" text-anchor=3D"middle" data-unformat=
+ted=3D"21.7%" data-math=3D"N" x=3D"0" y=3D"0" style=3D"font-family: &quot;O=
+pen Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(68, =
+68, 68); fill-opacity: 1; white-space: pre;">21.7%</text></g></g><g class=
+=3D"slice"><path class=3D"surface" d=3D"M188.20155127563277,203.23167598297=
+616a33,33 0 0 0 0,0l-75.3630470235235,-15.79275603972227a110,110 0 0 1 0,0Z=
+" style=3D"pointer-events: all; stroke-width: 0; fill: rgb(31, 119, 180); f=
+ill-opacity: 1; stroke: rgb(68, 68, 68); stroke-opacity: 1;"></path><g clas=
+s=3D"slicetext"><text data-notex=3D"1" class=3D"slicetext" transform=3D"tra=
+nslate(100.33655112710927,191.144455783478)" text-anchor=3D"middle" data-un=
+formatted=3D"0%" data-math=3D"N" x=3D"0" y=3D"0" style=3D"font-family: &quo=
+t;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(6=
+8, 68, 68); fill-opacity: 1; white-space: pre;">0%</text></g></g></g></g><g=
+ class=3D"treemaplayer"></g><g class=3D"sunburstlayer"></g><g class=3D"glim=
+ages"></g></svg><div class=3D"gl-container"></div><svg class=3D"main-svg" x=
+mlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/x=
+link" width=3D"500" height=3D"400" style=3D"background-color: transparent;"=
+><defs id=3D"topdefs-6c787e"><g class=3D"clips"></g><clipPath id=3D"legend6=
+c787e"><rect width=3D"121" height=3D"67" x=3D"0" y=3D"0"></rect></clipPath>=
+</defs><g class=3D"indicatorlayer"></g><g class=3D"layer-above"><g class=3D=
+"imagelayer"></g><g class=3D"shapelayer"></g></g><g class=3D"infolayer"><g =
+class=3D"legend" pointer-events=3D"all" transform=3D"translate(366.62,100)"=
+><rect class=3D"bg" shape-rendering=3D"crispEdges" style=3D"stroke: rgb(68,=
+ 68, 68); stroke-opacity: 1; fill: rgb(252, 252, 252); fill-opacity: 1; str=
+oke-width: 0px;" width=3D"121" height=3D"67" x=3D"0" y=3D"0"></rect><g clas=
+s=3D"scrollbox" transform=3D"" clip-path=3D"url('#legend6c787e')"><g class=
+=3D"groups"><g class=3D"traces" transform=3D"translate(0,14.5)" style=3D"op=
+acity: 1;"><text class=3D"legendtext" text-anchor=3D"start" x=3D"40" y=3D"4=
+.680000000000001" data-unformatted=3D"NON-STABLE" data-math=3D"N" style=3D"=
+font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: =
+12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;">NON-STABLE=
+</text><g class=3D"layers" style=3D"opacity: 1;"><g class=3D"legendfill"></=
+g><g class=3D"legendlines"></g><g class=3D"legendsymbols"><g class=3D"legen=
+dpoints"><path class=3D"legendpie" d=3D"M6,6H-6V-6H6Z" transform=3D"transla=
+te(20,0)" style=3D"stroke-width: 0; fill: rgb(26, 171, 155); fill-opacity: =
+1; stroke: rgb(68, 68, 68); stroke-opacity: 1;"></path></g></g></g><rect cl=
+ass=3D"legendtoggle" pointer-events=3D"all" x=3D"0" y=3D"-9.5" width=3D"115=
+.796875" height=3D"19" style=3D"cursor: pointer; fill: rgb(0, 0, 0); fill-o=
+pacity: 0;"></rect></g><g class=3D"traces" transform=3D"translate(0,33.5)" =
+style=3D"opacity: 1;"><text class=3D"legendtext" text-anchor=3D"start" x=3D=
+"40" y=3D"4.680000000000001" data-unformatted=3D"STABLE" data-math=3D"N" st=
+yle=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font=
+-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;">STA=
+BLE</text><g class=3D"layers" style=3D"opacity: 1;"><g class=3D"legendfill"=
+></g><g class=3D"legendlines"></g><g class=3D"legendsymbols"><g class=3D"le=
+gendpoints"><path class=3D"legendpie" d=3D"M6,6H-6V-6H6Z" transform=3D"tran=
+slate(20,0)" style=3D"stroke-width: 0; fill: rgb(221, 221, 221); fill-opaci=
+ty: 1; stroke: rgb(68, 68, 68); stroke-opacity: 1;"></path></g></g></g><rec=
+t class=3D"legendtoggle" pointer-events=3D"all" x=3D"0" y=3D"-9.5" width=3D=
+"115.796875" height=3D"19" style=3D"cursor: pointer; fill: rgb(0, 0, 0); fi=
+ll-opacity: 0;"></rect></g><g class=3D"traces" transform=3D"translate(0,52.=
+5)" style=3D"opacity: 1;"><text class=3D"legendtext" text-anchor=3D"start" =
+x=3D"40" y=3D"4.680000000000001" data-unformatted=3D"null" data-math=3D"N" =
+style=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; fo=
+nt-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;">n=
+ull</text><g class=3D"layers" style=3D"opacity: 1;"><g class=3D"legendfill"=
+></g><g class=3D"legendlines"></g><g class=3D"legendsymbols"><g class=3D"le=
+gendpoints"><path class=3D"legendpie" d=3D"M6,6H-6V-6H6Z" transform=3D"tran=
+slate(20,0)" style=3D"stroke-width: 0; fill: rgb(31, 119, 180); fill-opacit=
+y: 1; stroke: rgb(68, 68, 68); stroke-opacity: 1;"></path></g></g></g><rect=
+ class=3D"legendtoggle" pointer-events=3D"all" x=3D"0" y=3D"-9.5" width=3D"=
+115.796875" height=3D"19" style=3D"cursor: pointer; fill: rgb(0, 0, 0); fil=
+l-opacity: 0;"></rect></g></g></g><rect class=3D"scrollbar" rx=3D"20" ry=3D=
+"3" width=3D"0" height=3D"0" style=3D"fill: rgb(128, 139, 164); fill-opacit=
+y: 1;" x=3D"0" y=3D"0"></rect></g><g class=3D"g-gtitle"><text class=3D"gtit=
+le" x=3D"250" y=3D"50" text-anchor=3D"middle" dy=3D"0em" data-unformatted=
+=3D"DAI collateral split" data-math=3D"N" style=3D"font-family: &quot;Open =
+Sans&quot;, verdana, arial, sans-serif; font-size: 17px; fill: rgb(68, 68, =
+68); opacity: 1; font-weight: normal; white-space: pre;">DAI collateral spl=
+it</text></g></g><g class=3D"menulayer"></g><g class=3D"zoomlayer"></g></sv=
+g><div class=3D"modebar-container" style=3D"position: absolute; top: 0px; r=
+ight: 0px; width: 100%;"><div id=3D"modebar-6c787e" class=3D"modebar"><div =
+class=3D"modebar-group"><a rel=3D"tooltip" class=3D"modebar-btn" data-title=
+=3D"Download plot as a png" data-toggle=3D"false" data-gravity=3D"n"><svg v=
+iewBox=3D"0 0 1000 1000" class=3D"icon" height=3D"1em" width=3D"1em"><path =
+d=3D"m500 450c-83 0-150-67-150-150 0-83 67-150 150-150 83 0 150 67 150 150 =
+0 83-67 150-150 150z m400 150h-120c-16 0-34 13-39 29l-31 93c-6 15-23 28-40 =
+28h-340c-16 0-34-13-39-28l-31-94c-6-15-23-28-40-28h-120c-55 0-100-45-100-10=
+0v-450c0-55 45-100 100-100h800c55 0 100 45 100 100v450c0 55-45 100-100 100z=
+ m-400-550c-138 0-250 112-250 250 0 138 112 250 250 250 138 0 250-112 250-2=
+50 0-138-112-250-250-250z m365 380c-19 0-35 16-35 35 0 19 16 35 35 35 19 0 =
+35-16 35-35 0-19-16-35-35-35z" transform=3D"matrix(1 0 0 -1 0 850)"></path>=
+</svg></a></div><div class=3D"modebar-group"><a rel=3D"tooltip" class=3D"mo=
+debar-btn active" data-title=3D"Toggle show closest data on hover" data-att=
+r=3D"hovermode" data-val=3D"closest" data-toggle=3D"false" data-gravity=3D"=
+ne"><svg viewBox=3D"0 0 1500 1000" class=3D"icon" height=3D"1em" width=3D"1=
+em"><path d=3D"m375 725l0 0-375-375 375-374 0-1 1125 0 0 750-1125 0z" trans=
+form=3D"matrix(1 0 0 -1 0 850)"></path></svg></a></div><div class=3D"modeba=
+r-group"><a href=3D"https://plotly.com/" target=3D"_blank" data-title=3D"Pr=
+oduced with Plotly" class=3D"modebar-btn plotlyjsicon modebar-btn--logo"><s=
+vg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 132 132" height=3D"1=
+em" width=3D"1em"><defs><style>.cls-1 {fill: #3f4f75;} .cls-2 {fill: #80cfb=
+e;} .cls-3 {fill: #fff;}</style></defs><title>plotly-logomark</title><g id=
+=3D"symbol"><rect class=3D"cls-1" width=3D"132" height=3D"132" rx=3D"6" ry=
+=3D"6"></rect><circle class=3D"cls-2" cx=3D"78" cy=3D"54" r=3D"6"></circle>=
+<circle class=3D"cls-2" cx=3D"102" cy=3D"30" r=3D"6"></circle><circle class=
+=3D"cls-2" cx=3D"78" cy=3D"30" r=3D"6"></circle><circle class=3D"cls-2" cx=
+=3D"54" cy=3D"30" r=3D"6"></circle><circle class=3D"cls-2" cx=3D"30" cy=3D"=
+30" r=3D"6"></circle><circle class=3D"cls-2" cx=3D"30" cy=3D"54" r=3D"6"></=
+circle><path class=3D"cls-3" d=3D"M30,72a6,6,0,0,0-6,6v24a6,6,0,0,0,12,0V78=
+A6,6,0,0,0,30,72Z"></path><path class=3D"cls-3" d=3D"M78,72a6,6,0,0,0-6,6v2=
+4a6,6,0,0,0,12,0V78A6,6,0,0,0,78,72Z"></path><path class=3D"cls-3" d=3D"M54=
+,48a6,6,0,0,0-6,6v48a6,6,0,0,0,12,0V54A6,6,0,0,0,54,48Z"></path><path class=
+=3D"cls-3" d=3D"M102,48a6,6,0,0,0-6,6v48a6,6,0,0,0,12,0V54A6,6,0,0,0,102,48=
+Z"></path></g></svg></a></div></div></div><svg class=3D"main-svg" xmlns=3D"=
+http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xlink" wi=
+dth=3D"500" height=3D"400" style=3D"background-color: transparent;"><g clas=
+s=3D"hoverlayer"></g></svg></div></div>
+
+                            </div>
+
+                    </div>
+                </div>
+
+                <div id=3D"graph-box-1" style=3D"visibility: visible; width=
+: 100%;">
+                    <div class=3D"kpi shadow">
+                  =20
+                    <div class=3D"inner_left js-plotly-plot" style=3D"max-w=
+idth: 642px; margin: auto;" id=3D"bar">
+                       =20
+                        <div class=3D"plot-container plotly"><div class=3D"=
+user-select-none svg-container" style=3D"position: relative; width: 500px; =
+height: 400px;"><svg class=3D"main-svg" xmlns=3D"http://www.w3.org/2000/svg=
+" xmlns:xlink=3D"http://www.w3.org/1999/xlink" width=3D"500" height=3D"400"=
+ style=3D"background: transparent;"><defs id=3D"defs-69a001"><g class=3D"cl=
+ips"><clipPath id=3D"clip69a001xyplot" class=3D"plotclip"><rect width=3D"25=
+3" height=3D"220"></rect></clipPath><clipPath class=3D"axesclip" id=3D"clip=
+69a001x"><rect x=3D"80" y=3D"0" width=3D"253" height=3D"400"></rect></clipP=
+ath><clipPath class=3D"axesclip" id=3D"clip69a001y"><rect x=3D"0" y=3D"100"=
+ width=3D"500" height=3D"220"></rect></clipPath><clipPath class=3D"axesclip=
+" id=3D"clip69a001xy"><rect x=3D"80" y=3D"100" width=3D"253" height=3D"220"=
+></rect></clipPath></g><g class=3D"gradients"></g></defs><g class=3D"bglaye=
+r"></g><g class=3D"draglayer cursor-crosshair"><g class=3D"xy"><rect class=
+=3D"nsewdrag drag" data-subplot=3D"xy" x=3D"80" y=3D"100" width=3D"253" hei=
+ght=3D"220" style=3D"fill: transparent; stroke-width: 0; pointer-events: al=
+l;"></rect><rect class=3D"nwdrag drag cursor-nw-resize" data-subplot=3D"xy"=
+ x=3D"60" y=3D"80" width=3D"20" height=3D"20" style=3D"fill: transparent; s=
+troke-width: 0; pointer-events: all;"></rect><rect class=3D"nedrag drag cur=
+sor-ne-resize" data-subplot=3D"xy" x=3D"333" y=3D"80" width=3D"20" height=
+=3D"20" style=3D"fill: transparent; stroke-width: 0; pointer-events: all;">=
+</rect><rect class=3D"swdrag drag cursor-sw-resize" data-subplot=3D"xy" x=
+=3D"60" y=3D"320" width=3D"20" height=3D"20" style=3D"fill: transparent; st=
+roke-width: 0; pointer-events: all;"></rect><rect class=3D"sedrag drag curs=
+or-se-resize" data-subplot=3D"xy" x=3D"333" y=3D"320" width=3D"20" height=
+=3D"20" style=3D"fill: transparent; stroke-width: 0; pointer-events: all;">=
+</rect><rect class=3D"ewdrag drag cursor-ew-resize" data-subplot=3D"xy" x=
+=3D"105.3" y=3D"320.5" width=3D"202.4" height=3D"20" style=3D"fill: transpa=
+rent; stroke-width: 0; pointer-events: all;"></rect><rect class=3D"wdrag dr=
+ag cursor-w-resize" data-subplot=3D"xy" x=3D"80" y=3D"320.5" width=3D"25.3"=
+ height=3D"20" style=3D"fill: transparent; stroke-width: 0; pointer-events:=
+ all;"></rect><rect class=3D"edrag drag cursor-e-resize" data-subplot=3D"xy=
+" x=3D"307.70000000000005" y=3D"320.5" width=3D"25.3" height=3D"20" style=
+=3D"fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect =
+class=3D"nsdrag drag cursor-ns-resize" data-subplot=3D"xy" x=3D"59.5" y=3D"=
+122" width=3D"20" height=3D"176" style=3D"fill: transparent; stroke-width: =
+0; pointer-events: all;"></rect><rect class=3D"sdrag drag cursor-s-resize" =
+data-subplot=3D"xy" x=3D"59.5" y=3D"298" width=3D"20" height=3D"22" style=
+=3D"fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect =
+class=3D"ndrag drag cursor-n-resize" data-subplot=3D"xy" x=3D"59.5" y=3D"10=
+0" width=3D"20" height=3D"22" style=3D"fill: transparent; stroke-width: 0; =
+pointer-events: all;"></rect></g></g><g class=3D"layer-below"><g class=3D"i=
+magelayer"></g><g class=3D"shapelayer"></g></g><g class=3D"cartesianlayer">=
+<g class=3D"subplot xy"><g class=3D"layer-subplot"><g class=3D"shapelayer">=
+</g><g class=3D"imagelayer"></g></g><g class=3D"gridlayer"><g class=3D"x"><=
+/g><g class=3D"y"><path class=3D"ygrid crisp" transform=3D"translate(0,271.=
+46000000000004)" d=3D"M80,0h253" style=3D"stroke: rgb(238, 238, 238); strok=
+e-opacity: 1; stroke-width: 1px;"></path><path class=3D"ygrid crisp" transf=
+orm=3D"translate(0,222.91)" d=3D"M80,0h253" style=3D"stroke: rgb(238, 238, =
+238); stroke-opacity: 1; stroke-width: 1px;"></path><path class=3D"ygrid cr=
+isp" transform=3D"translate(0,174.37)" d=3D"M80,0h253" style=3D"stroke: rgb=
+(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"></path><path class=
+=3D"ygrid crisp" transform=3D"translate(0,125.82)" d=3D"M80,0h253" style=3D=
+"stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"></path>=
+</g></g><g class=3D"zerolinelayer"><path class=3D"yzl zl crisp" transform=
+=3D"translate(0,320)" d=3D"M80,0h253" style=3D"stroke: rgb(68, 68, 68); str=
+oke-opacity: 1; stroke-width: 1px;"></path></g><path class=3D"xlines-below"=
+></path><path class=3D"ylines-below"></path><g class=3D"overlines-below"></=
+g><g class=3D"xaxislayer-below"></g><g class=3D"yaxislayer-below"></g><g cl=
+ass=3D"overaxes-below"></g><g class=3D"plot" transform=3D"translate(80,100)=
+" clip-path=3D"url('#clip69a001xyplot')"><g class=3D"barlayer mlayer"><g cl=
+ass=3D"trace bars" style=3D"opacity: 1;"><g class=3D"points"><g class=3D"po=
+int"><path d=3D"M5.06,220V11H25.3V220Z" style=3D"vector-effect: non-scaling=
+-stroke; opacity: 1; stroke-width: 0px; fill: rgb(221, 221, 221); fill-opac=
+ity: 1;"></path></g><g class=3D"point"><path d=3D"M55.66,220V211.84H75.9V22=
+0Z" style=3D"vector-effect: non-scaling-stroke; opacity: 1; stroke-width: 0=
+px; fill: rgb(221, 221, 221); fill-opacity: 1;"></path></g><g class=3D"poin=
+t"><path d=3D"M106.26,220V219H126.5V220Z" style=3D"vector-effect: non-scali=
+ng-stroke; opacity: 1; stroke-width: 0px; fill: rgb(221, 221, 221); fill-op=
+acity: 1;"></path></g><g class=3D"point"><path d=3D"M156.86,220V220H177.1V2=
+20Z" style=3D"vector-effect: non-scaling-stroke; opacity: 1; stroke-width: =
+0px; fill: rgb(221, 221, 221); fill-opacity: 1;"></path></g><g class=3D"poi=
+nt"><path d=3D"M207.46,220V169.91H227.7V220Z" style=3D"vector-effect: non-s=
+caling-stroke; opacity: 1; stroke-width: 0px; fill: rgb(221, 221, 221); fil=
+l-opacity: 1;"></path></g></g></g><g class=3D"trace bars" style=3D"opacity:=
+ 1;"><g class=3D"points"><g class=3D"point"><path d=3D"M25.3,220V163.96H45.=
+54V220Z" style=3D"vector-effect: non-scaling-stroke; opacity: 1; stroke-wid=
+th: 0px; fill: rgb(26, 171, 155); fill-opacity: 1;"></path></g><g class=3D"=
+point"><path d=3D"M75.9,220V212.04H96.14V220Z" style=3D"vector-effect: non-=
+scaling-stroke; opacity: 1; stroke-width: 0px; fill: rgb(26, 171, 155); fil=
+l-opacity: 1;"></path></g><g class=3D"point"><path d=3D"M126.5,220V219H146.=
+74V220Z" style=3D"vector-effect: non-scaling-stroke; opacity: 1; stroke-wid=
+th: 0px; fill: rgb(26, 171, 155); fill-opacity: 1;"></path></g><g class=3D"=
+point"><path d=3D"M177.1,220V109.7H197.34V220Z" style=3D"vector-effect: non=
+-scaling-stroke; opacity: 1; stroke-width: 0px; fill: rgb(26, 171, 155); fi=
+ll-opacity: 1;"></path></g><g class=3D"point"><path d=3D"M227.7,220V169.91H=
+247.94V220Z" style=3D"vector-effect: non-scaling-stroke; opacity: 1; stroke=
+-width: 0px; fill: rgb(26, 171, 155); fill-opacity: 1;"></path></g></g></g>=
+</g></g><g class=3D"overplot"></g><path class=3D"xlines-above crisp" d=3D"M=
+0,0" style=3D"fill: none;"></path><path class=3D"ylines-above crisp" d=3D"M=
+0,0" style=3D"fill: none;"></path><g class=3D"overlines-above"></g><g class=
+=3D"xaxislayer-above"><g class=3D"xtick"><text text-anchor=3D"start" x=3D"0=
+" y=3D"333" data-unformatted=3D"REGULAR VAULT" data-math=3D"N" transform=3D=
+"translate(105.3,0) rotate(20,0,327)" style=3D"font-family: &quot;Open Sans=
+&quot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(68, 68, 68);=
+ fill-opacity: 1; white-space: pre;">REGULAR VAULT</text></g><g class=3D"xt=
+ick"><text text-anchor=3D"start" x=3D"0" y=3D"333" data-unformatted=3D"G-UN=
+I" data-math=3D"N" transform=3D"translate(155.9,0) rotate(20,0,327)" style=
+=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-si=
+ze: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;">G-UNI<=
+/text></g><g class=3D"xtick"><text text-anchor=3D"start" x=3D"0" y=3D"333" =
+data-unformatted=3D"D3M" data-math=3D"N" transform=3D"translate(206.5,0) ro=
+tate(20,0,327)" style=3D"font-family: &quot;Open Sans&quot;, verdana, arial=
+, sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; whit=
+e-space: pre;">D3M</text></g><g class=3D"xtick"><text text-anchor=3D"start"=
+ x=3D"0" y=3D"333" data-unformatted=3D"RWA" data-math=3D"N" transform=3D"tr=
+anslate(257.1,0) rotate(20,0,327)" style=3D"font-family: &quot;Open Sans&qu=
+ot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fi=
+ll-opacity: 1; white-space: pre;">RWA</text></g><g class=3D"xtick"><text te=
+xt-anchor=3D"start" x=3D"0" y=3D"333" data-unformatted=3D"PSM" data-math=3D=
+"N" transform=3D"translate(307.7,0) rotate(20,0,327)" style=3D"font-family:=
+ &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: =
+rgb(68, 68, 68); fill-opacity: 1; white-space: pre;">PSM</text></g></g><g c=
+lass=3D"yaxislayer-above"><g class=3D"ytick"><text text-anchor=3D"end" x=3D=
+"79" y=3D"4.199999999999999" data-unformatted=3D"0" data-math=3D"N" transfo=
+rm=3D"translate(0,320)" style=3D"font-family: &quot;Open Sans&quot;, verdan=
+a, arial, sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity:=
+ 1; white-space: pre;">0</text></g><g class=3D"ytick"><text text-anchor=3D"=
+end" x=3D"79" y=3D"4.199999999999999" data-unformatted=3D"1B" data-math=3D"=
+N" transform=3D"translate(0,271.46000000000004)" style=3D"font-family: &quo=
+t;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(6=
+8, 68, 68); fill-opacity: 1; white-space: pre;">1B</text></g><g class=3D"yt=
+ick"><text text-anchor=3D"end" x=3D"79" y=3D"4.199999999999999" data-unform=
+atted=3D"2B" data-math=3D"N" transform=3D"translate(0,222.91)" style=3D"fon=
+t-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12p=
+x; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;">2B</text></g>=
+<g class=3D"ytick"><text text-anchor=3D"end" x=3D"79" y=3D"4.19999999999999=
+9" data-unformatted=3D"3B" data-math=3D"N" transform=3D"translate(0,174.37)=
+" style=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; =
+font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"=
+>3B</text></g><g class=3D"ytick"><text text-anchor=3D"end" x=3D"79" y=3D"4.=
+199999999999999" data-unformatted=3D"4B" data-math=3D"N" transform=3D"trans=
+late(0,125.82)" style=3D"font-family: &quot;Open Sans&quot;, verdana, arial=
+, sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; whit=
+e-space: pre;">4B</text></g></g><g class=3D"overaxes-above"></g></g></g><g =
+class=3D"polarlayer"></g><g class=3D"ternarylayer"></g><g class=3D"geolayer=
+"></g><g class=3D"funnelarealayer"></g><g class=3D"pielayer"></g><g class=
+=3D"treemaplayer"></g><g class=3D"sunburstlayer"></g><g class=3D"glimages">=
+</g></svg><div class=3D"gl-container"></div><svg class=3D"main-svg" xmlns=
+=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xlink=
+" width=3D"500" height=3D"400" style=3D"background-color: transparent;"><de=
+fs id=3D"topdefs-69a001"><g class=3D"clips"></g><clipPath id=3D"legend69a00=
+1"><rect width=3D"150" height=3D"48" x=3D"0" y=3D"0"></rect></clipPath></de=
+fs><g class=3D"indicatorlayer"></g><g class=3D"layer-above"><g class=3D"ima=
+gelayer"></g><g class=3D"shapelayer"></g></g><g class=3D"infolayer"><g clas=
+s=3D"legend" pointer-events=3D"all" transform=3D"translate(338.06,100)"><re=
+ct class=3D"bg" shape-rendering=3D"crispEdges" style=3D"stroke: rgb(68, 68,=
+ 68); stroke-opacity: 1; fill: rgb(252, 252, 252); fill-opacity: 1; stroke-=
+width: 0px;" width=3D"150" height=3D"48" x=3D"0" y=3D"0"></rect><g class=3D=
+"scrollbox" transform=3D"" clip-path=3D"url('#legend69a001')"><g class=3D"g=
+roups"><g class=3D"traces" transform=3D"translate(0,14.5)" style=3D"opacity=
+: 1;"><text class=3D"legendtext" text-anchor=3D"start" x=3D"40" y=3D"4.6800=
+00000000001" data-unformatted=3D"Value locked (USD)" data-math=3D"N" style=
+=3D"font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-si=
+ze: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;">Value =
+locked (USD)</text><g class=3D"layers" style=3D"opacity: 1;"><g class=3D"le=
+gendfill"></g><g class=3D"legendlines"></g><g class=3D"legendsymbols"><g cl=
+ass=3D"legendpoints"><path class=3D"legendundefined" d=3D"M6,6H-6V-6H6Z" tr=
+ansform=3D"translate(20,0)" style=3D"stroke-width: 0px; fill: rgb(221, 221,=
+ 221); fill-opacity: 1;"></path></g></g></g><rect class=3D"legendtoggle" po=
+inter-events=3D"all" x=3D"0" y=3D"-9.5" width=3D"144.48828125" height=3D"19=
+" style=3D"cursor: pointer; fill: rgb(0, 0, 0); fill-opacity: 0;"></rect></=
+g><g class=3D"traces" transform=3D"translate(0,33.5)" style=3D"opacity: 1;"=
+><text class=3D"legendtext" text-anchor=3D"start" x=3D"40" y=3D"4.680000000=
+000001" data-unformatted=3D"Debt (DAI)" data-math=3D"N" style=3D"font-famil=
+y: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill=
+: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;">Debt (DAI)</text><g =
+class=3D"layers" style=3D"opacity: 1;"><g class=3D"legendfill"></g><g class=
+=3D"legendlines"></g><g class=3D"legendsymbols"><g class=3D"legendpoints"><=
+path class=3D"legendundefined" d=3D"M6,6H-6V-6H6Z" transform=3D"translate(2=
+0,0)" style=3D"stroke-width: 0px; fill: rgb(26, 171, 155); fill-opacity: 1;=
+"></path></g></g></g><rect class=3D"legendtoggle" pointer-events=3D"all" x=
+=3D"0" y=3D"-9.5" width=3D"144.48828125" height=3D"19" style=3D"cursor: poi=
+nter; fill: rgb(0, 0, 0); fill-opacity: 0;"></rect></g></g></g><rect class=
+=3D"scrollbar" rx=3D"20" ry=3D"3" width=3D"0" height=3D"0" style=3D"fill: r=
+gb(128, 139, 164); fill-opacity: 1;" x=3D"0" y=3D"0"></rect></g><g class=3D=
+"g-gtitle"><text class=3D"gtitle" x=3D"250" y=3D"50" text-anchor=3D"middle"=
+ dy=3D"0em" data-unformatted=3D"Value locked (USD) &amp; debt (DAI) split b=
+y vault type" data-math=3D"N" style=3D"font-family: &quot;Open Sans&quot;, =
+verdana, arial, sans-serif; font-size: 17px; fill: rgb(68, 68, 68); opacity=
+: 1; font-weight: normal; white-space: pre;">Value locked (USD) &amp; debt =
+(DAI) split by vault type</text></g><g class=3D"g-xtitle"></g><g class=3D"g=
+-ytitle"></g></g><g class=3D"menulayer"></g><g class=3D"zoomlayer"></g></sv=
+g><div class=3D"modebar-container" style=3D"position: absolute; top: 0px; r=
+ight: 0px; width: 100%;"><div id=3D"modebar-69a001" class=3D"modebar"><div =
+class=3D"modebar-group"><a rel=3D"tooltip" class=3D"modebar-btn" data-title=
+=3D"Download plot as a png" data-toggle=3D"false" data-gravity=3D"n"><svg v=
+iewBox=3D"0 0 1000 1000" class=3D"icon" height=3D"1em" width=3D"1em"><path =
+d=3D"m500 450c-83 0-150-67-150-150 0-83 67-150 150-150 83 0 150 67 150 150 =
+0 83-67 150-150 150z m400 150h-120c-16 0-34 13-39 29l-31 93c-6 15-23 28-40 =
+28h-340c-16 0-34-13-39-28l-31-94c-6-15-23-28-40-28h-120c-55 0-100-45-100-10=
+0v-450c0-55 45-100 100-100h800c55 0 100 45 100 100v450c0 55-45 100-100 100z=
+ m-400-550c-138 0-250 112-250 250 0 138 112 250 250 250 138 0 250-112 250-2=
+50 0-138-112-250-250-250z m365 380c-19 0-35 16-35 35 0 19 16 35 35 35 19 0 =
+35-16 35-35 0-19-16-35-35-35z" transform=3D"matrix(1 0 0 -1 0 850)"></path>=
+</svg></a></div><div class=3D"modebar-group"><a rel=3D"tooltip" class=3D"mo=
+debar-btn active" data-title=3D"Zoom" data-attr=3D"dragmode" data-val=3D"zo=
+om" data-toggle=3D"false" data-gravity=3D"n"><svg viewBox=3D"0 0 1000 1000"=
+ class=3D"icon" height=3D"1em" width=3D"1em"><path d=3D"m1000-25l-250 251c4=
+0 63 63 138 63 218 0 224-182 406-407 406-224 0-406-182-406-406s183-406 407-=
+406c80 0 155 22 218 62l250-250 125 125z m-812 250l0 438 437 0 0-438-437 0z =
+m62 375l313 0 0-312-313 0 0 312z" transform=3D"matrix(1 0 0 -1 0 850)"></pa=
+th></svg></a><a rel=3D"tooltip" class=3D"modebar-btn" data-title=3D"Pan" da=
+ta-attr=3D"dragmode" data-val=3D"pan" data-toggle=3D"false" data-gravity=3D=
+"n"><svg viewBox=3D"0 0 1000 1000" class=3D"icon" height=3D"1em" width=3D"1=
+em"><path d=3D"m1000 350l-187 188 0-125-250 0 0 250 125 0-188 187-187-187 1=
+25 0 0-250-250 0 0 125-188-188 186-187 0 125 252 0 0-250-125 0 187-188 188 =
+188-125 0 0 250 250 0 0-126 187 188z" transform=3D"matrix(1 0 0 -1 0 850)">=
+</path></svg></a><a rel=3D"tooltip" class=3D"modebar-btn" data-title=3D"Box=
+ Select" data-attr=3D"dragmode" data-val=3D"select" data-toggle=3D"false" d=
+ata-gravity=3D"n"><svg viewBox=3D"0 0 1000 1000" class=3D"icon" height=3D"1=
+em" width=3D"1em"><path d=3D"m0 850l0-143 143 0 0 143-143 0z m286 0l0-143 1=
+43 0 0 143-143 0z m285 0l0-143 143 0 0 143-143 0z m286 0l0-143 143 0 0 143-=
+143 0z m-857-286l0-143 143 0 0 143-143 0z m857 0l0-143 143 0 0 143-143 0z m=
+-857-285l0-143 143 0 0 143-143 0z m857 0l0-143 143 0 0 143-143 0z m-857-286=
+l0-143 143 0 0 143-143 0z m286 0l0-143 143 0 0 143-143 0z m285 0l0-143 143 =
+0 0 143-143 0z m286 0l0-143 143 0 0 143-143 0z" transform=3D"matrix(1 0 0 -=
+1 0 850)"></path></svg></a><a rel=3D"tooltip" class=3D"modebar-btn" data-ti=
+tle=3D"Lasso Select" data-attr=3D"dragmode" data-val=3D"lasso" data-toggle=
+=3D"false" data-gravity=3D"n"><svg viewBox=3D"0 0 1031 1000" class=3D"icon"=
+ height=3D"1em" width=3D"1em"><path d=3D"m1018 538c-36 207-290 336-568 286-=
+277-48-473-256-436-463 10-57 36-108 76-151-13-66 11-137 68-183 34-28 75-41 =
+114-42l-55-70 0 0c-2-1-3-2-4-3-10-14-8-34 5-45 14-11 34-8 45 4 1 1 2 3 2 5l=
+0 0 113 140c16 11 31 24 45 40 4 3 6 7 8 11 48-3 100 0 151 9 278 48 473 255 =
+436 462z m-624-379c-80 14-149 48-197 96 42 42 109 47 156 9 33-26 47-66 41-1=
+05z m-187-74c-19 16-33 37-39 60 50-32 109-55 174-68-42-25-95-24-135 8z m360=
+ 75c-34-7-69-9-102-8 8 62-16 128-68 170-73 59-175 54-244-5-9 20-16 40-20 61=
+-28 159 121 317 333 354s407-60 434-217c28-159-121-318-333-355z" transform=
+=3D"matrix(1 0 0 -1 0 850)"></path></svg></a></div><div class=3D"modebar-gr=
+oup"><a rel=3D"tooltip" class=3D"modebar-btn" data-title=3D"Zoom in" data-a=
+ttr=3D"zoom" data-val=3D"in" data-toggle=3D"false" data-gravity=3D"n"><svg =
+viewBox=3D"0 0 875 1000" class=3D"icon" height=3D"1em" width=3D"1em"><path =
+d=3D"m1 787l0-875 875 0 0 875-875 0z m687-500l-187 0 0-187-125 0 0 187-188 =
+0 0 125 188 0 0 187 125 0 0-187 187 0 0-125z" transform=3D"matrix(1 0 0 -1 =
+0 850)"></path></svg></a><a rel=3D"tooltip" class=3D"modebar-btn" data-titl=
+e=3D"Zoom out" data-attr=3D"zoom" data-val=3D"out" data-toggle=3D"false" da=
+ta-gravity=3D"n"><svg viewBox=3D"0 0 875 1000" class=3D"icon" height=3D"1em=
+" width=3D"1em"><path d=3D"m0 788l0-876 875 0 0 876-875 0z m688-500l-500 0 =
+0 125 500 0 0-125z" transform=3D"matrix(1 0 0 -1 0 850)"></path></svg></a><=
+a rel=3D"tooltip" class=3D"modebar-btn" data-title=3D"Autoscale" data-attr=
+=3D"zoom" data-val=3D"auto" data-toggle=3D"false" data-gravity=3D"n"><svg v=
+iewBox=3D"0 0 1000 1000" class=3D"icon" height=3D"1em" width=3D"1em"><path =
+d=3D"m250 850l-187 0-63 0 0-62 0-188 63 0 0 188 187 0 0 62z m688 0l-188 0 0=
+-62 188 0 0-188 62 0 0 188 0 62-62 0z m-875-938l0 188-63 0 0-188 0-62 63 0 =
+187 0 0 62-187 0z m875 188l0-188-188 0 0-62 188 0 62 0 0 62 0 188-62 0z m-1=
+25 188l-1 0-93-94-156 156 156 156 92-93 2 0 0 250-250 0 0-2 93-92-156-156-1=
+56 156 94 92 0 2-250 0 0-250 0 0 93 93 157-156-157-156-93 94 0 0 0-250 250 =
+0 0 0-94 93 156 157 156-157-93-93 0 0 250 0 0 250z" transform=3D"matrix(1 0=
+ 0 -1 0 850)"></path></svg></a><a rel=3D"tooltip" class=3D"modebar-btn" dat=
+a-title=3D"Reset axes" data-attr=3D"zoom" data-val=3D"reset" data-toggle=3D=
+"false" data-gravity=3D"n"><svg viewBox=3D"0 0 928.6 1000" class=3D"icon" h=
+eight=3D"1em" width=3D"1em"><path d=3D"m786 296v-267q0-15-11-26t-25-10h-214=
+v214h-143v-214h-214q-15 0-25 10t-11 26v267q0 1 0 2t0 2l321 264 321-264q1-1 =
+1-4z m124 39l-34-41q-5-5-12-6h-2q-7 0-12 3l-386 322-386-322q-7-4-13-4-7 2-1=
+2 7l-35 41q-4 5-3 13t6 12l401 334q18 15 42 15t43-15l136-114v109q0 8 5 13t13=
+ 5h107q8 0 13-5t5-13v-227l122-102q5-5 6-12t-4-13z" transform=3D"matrix(1 0 =
+0 -1 0 850)"></path></svg></a></div><div class=3D"modebar-group"><a rel=3D"=
+tooltip" class=3D"modebar-btn" data-title=3D"Toggle Spike Lines" data-attr=
+=3D"_cartesianSpikesEnabled" data-val=3D"on" data-toggle=3D"false" data-gra=
+vity=3D"n"><svg viewBox=3D"0 0 1000 1000" class=3D"icon" height=3D"1em" wid=
+th=3D"1em"><path d=3D"M512 409c0-57-46-104-103-104-57 0-104 47-104 104 0 57=
+ 47 103 104 103 57 0 103-46 103-103z m-327-39l92 0 0 92-92 0z m-185 0l92 0 =
+0 92-92 0z m370-186l92 0 0 93-92 0z m0-184l92 0 0 92-92 0z" transform=3D"ma=
+trix(1.5 0 0 -1.5 0 850)"></path></svg></a><a rel=3D"tooltip" class=3D"mode=
+bar-btn" data-title=3D"Show closest data on hover" data-attr=3D"hovermode" =
+data-val=3D"closest" data-toggle=3D"false" data-gravity=3D"ne"><svg viewBox=
+=3D"0 0 1500 1000" class=3D"icon" height=3D"1em" width=3D"1em"><path d=3D"m=
+375 725l0 0-375-375 375-374 0-1 1125 0 0 750-1125 0z" transform=3D"matrix(1=
+ 0 0 -1 0 850)"></path></svg></a><a rel=3D"tooltip" class=3D"modebar-btn ac=
+tive" data-title=3D"Compare data on hover" data-attr=3D"hovermode" data-val=
+=3D"x" data-toggle=3D"false" data-gravity=3D"ne"><svg viewBox=3D"0 0 1125 1=
+000" class=3D"icon" height=3D"1em" width=3D"1em"><path d=3D"m187 786l0 2-18=
+7-188 188-187 0 0 937 0 0 373-938 0z m0-499l0 1-187-188 188-188 0 0 937 0 0=
+ 376-938-1z" transform=3D"matrix(1 0 0 -1 0 850)"></path></svg></a></div><d=
+iv class=3D"modebar-group"><a href=3D"https://plotly.com/" target=3D"_blank=
+" data-title=3D"Produced with Plotly" class=3D"modebar-btn plotlyjsicon mod=
+ebar-btn--logo"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 13=
+2 132" height=3D"1em" width=3D"1em"><defs><style>.cls-1 {fill: #3f4f75;} .c=
+ls-2 {fill: #80cfbe;} .cls-3 {fill: #fff;}</style></defs><title>plotly-logo=
+mark</title><g id=3D"symbol"><rect class=3D"cls-1" width=3D"132" height=3D"=
+132" rx=3D"6" ry=3D"6"></rect><circle class=3D"cls-2" cx=3D"78" cy=3D"54" r=
+=3D"6"></circle><circle class=3D"cls-2" cx=3D"102" cy=3D"30" r=3D"6"></circ=
+le><circle class=3D"cls-2" cx=3D"78" cy=3D"30" r=3D"6"></circle><circle cla=
+ss=3D"cls-2" cx=3D"54" cy=3D"30" r=3D"6"></circle><circle class=3D"cls-2" c=
+x=3D"30" cy=3D"30" r=3D"6"></circle><circle class=3D"cls-2" cx=3D"30" cy=3D=
+"54" r=3D"6"></circle><path class=3D"cls-3" d=3D"M30,72a6,6,0,0,0-6,6v24a6,=
+6,0,0,0,12,0V78A6,6,0,0,0,30,72Z"></path><path class=3D"cls-3" d=3D"M78,72a=
+6,6,0,0,0-6,6v24a6,6,0,0,0,12,0V78A6,6,0,0,0,78,72Z"></path><path class=3D"=
+cls-3" d=3D"M54,48a6,6,0,0,0-6,6v48a6,6,0,0,0,12,0V54A6,6,0,0,0,54,48Z"></p=
+ath><path class=3D"cls-3" d=3D"M102,48a6,6,0,0,0-6,6v48a6,6,0,0,0,12,0V54A6=
+,6,0,0,0,102,48Z"></path></g></svg></a></div></div></div><svg class=3D"main=
+-svg" xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org=
+/1999/xlink" width=3D"500" height=3D"400" style=3D"background-color: transp=
+arent;"><g class=3D"hoverlayer"></g></svg></div></div>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class=3D"right_panel shadow">
+                <div id=3D"table_container" style=3D"visibility: visible;">
+                    <div><h3 style=3D"margin-top: 2px; ">Collaterals list<s=
+pan id=3D"list_num"> (65)</span>:</h3></div>
+                    <div class=3D"right-box">
+                        <div id=3D"sorted-table_wrapper" class=3D"dataTable=
+s_wrapper no-footer"><div class=3D"dt-buttons"><button class=3D"dt-button b=
+uttons-csv buttons-html5" tabindex=3D"0" aria-controls=3D"sorted-table" typ=
+e=3D"button"><span>Export to CSV</span></button> </div><table id=3D"sorted-=
+table" class=3D"simple-table dataTable no-footer" style=3D"width:99%" role=
+=3D"grid">
+                            <thead>
+                                <tr role=3D"row"><th class=3D"sorting" tabi=
+ndex=3D"0" aria-controls=3D"sorted-table" rowspan=3D"1" colspan=3D"1" aria-=
+label=3D"Colla-teral: activate to sort column ascending">Colla-<br>teral</t=
+h><th class=3D"sorting" tabindex=3D"0" aria-controls=3D"sorted-table" rowsp=
+an=3D"1" colspan=3D"1" aria-label=3D"Activevaults: activate to sort column =
+ascending" style=3D"width: 45px;">Active<br>vaults</th><th class=3D"sorting=
+" tabindex=3D"0" aria-controls=3D"sorted-table" rowspan=3D"1" colspan=3D"1"=
+ aria-label=3D"Totalvaults: activate to sort column ascending" style=3D"wid=
+th: 45px;">Total<br>vaults</th><th class=3D"sorting" tabindex=3D"0" aria-co=
+ntrols=3D"sorted-table" rowspan=3D"1" colspan=3D"1" aria-label=3D"Lockedval=
+ue (USD): activate to sort column ascending" style=3D"width: 110px;">Locked=
+<br>value (USD)</th><th class=3D"sorting_desc" tabindex=3D"0" aria-controls=
+=3D"sorted-table" rowspan=3D"1" colspan=3D"1" aria-sort=3D"descending" aria=
+-label=3D"Totaldebt (DAI): activate to sort column ascending" style=3D"widt=
+h: 110px;">Total<br>debt (DAI)</th><th class=3D"sorting" tabindex=3D"0" ari=
+a-controls=3D"sorted-table" rowspan=3D"1" colspan=3D"1" aria-label=3D"Avail=
+abledebt (DAI): activate to sort column ascending" style=3D"width: 95px;">A=
+vailable<br>debt (DAI)</th><th class=3D"sorting" tabindex=3D"0" aria-contro=
+ls=3D"sorted-table" rowspan=3D"1" colspan=3D"1" aria-label=3D"Availablecoll=
+ateral: activate to sort column ascending" style=3D"width: 90px;">Available=
+<br>collateral</th><th class=3D"sorting" tabindex=3D"0" aria-controls=3D"so=
+rted-table" rowspan=3D"1" colspan=3D"1" aria-label=3D"Coll.%: activate to s=
+ort column ascending" style=3D"width: 50px;">Coll.<br>%</th></tr>
+                            </thead>
+                        <tbody><tr role=3D"row" class=3D"odd"><td><a title=
+=3D"Vaults" using=3D"" rwa007-a=3D"" href=3D"https://tracker-vaults.makerda=
+o.network/collateral/RWA007-A">RWA007-A</a></td><td>1</td><td>1</td><td>1.0=
+0</td><td class=3D"sorting_1">1,139,950,318.23</td><td>-1,139,950,317.23</t=
+d><td>-1,139,950,317.23</td><td>0.00%</td></tr><tr role=3D"row" class=3D"ev=
+en"><td><a title=3D"Vaults" using=3D"" rwa014-a=3D"" href=3D"https://tracke=
+r-vaults.makerdao.network/collateral/RWA014-A">RWA014-A</a></td><td>1</td><=
+td>1</td><td>1.00</td><td class=3D"sorting_1">500,000,000.00</td><td>-499,9=
+99,999.00</td><td>-499,999,999.00</td><td>0.00%</td></tr><tr role=3D"row" c=
+lass=3D"odd"><td><a title=3D"Vaults" using=3D"" psm-gusd-a=3D"" href=3D"htt=
+ps://tracker-vaults.makerdao.network/collateral/PSM-GUSD-A">PSM-GUSD-A</a><=
+/td><td>1</td><td>1</td><td>499,486,832.33</td><td class=3D"sorting_1">499,=
+486,832.33</td><td>0.00</td><td>0.00</td><td>100.00%</td></tr><tr role=3D"r=
+ow" class=3D"even"><td><a title=3D"Vaults" using=3D"" psm-usdc-a=3D"" href=
+=3D"https://tracker-vaults.makerdao.network/collateral/PSM-USDC-A">PSM-USDC=
+-A</a></td><td>1</td><td>1</td><td>438,579,526.80</td><td class=3D"sorting_=
+1">438,579,526.80</td><td>0.00</td><td>0.00</td><td>100.00%</td></tr><tr ro=
+le=3D"row" class=3D"odd"><td><a title=3D"Vaults" using=3D"" rwa015-a=3D"" h=
+ref=3D"https://tracker-vaults.makerdao.network/collateral/RWA015-A">RWA015-=
+A</a></td><td>1</td><td>1</td><td>1.00</td><td class=3D"sorting_1">402,450,=
+000.00</td><td>-402,449,999.00</td><td>-402,449,999.00</td><td>0.00%</td></=
+tr><tr role=3D"row" class=3D"even"><td><a title=3D"Vaults" using=3D"" wstet=
+h-b=3D"" href=3D"https://tracker-vaults.makerdao.network/collateral/WSTETH-=
+B">WSTETH-B</a></td><td>190</td><td>369</td><td>1,400,932,481.19</td><td cl=
+ass=3D"sorting_1">315,110,439.73</td><td>381,743,931.87</td><td>338,544.41<=
+/td><td>444.58%</td></tr><tr role=3D"row" class=3D"odd"><td><a title=3D"Vau=
+lts" using=3D"" eth-c=3D"" href=3D"https://tracker-vaults.makerdao.network/=
+collateral/ETH-C">ETH-C</a></td><td>380</td><td>1,929</td><td>1,054,456,079=
+.44</td><td class=3D"sorting_1">246,734,697.17</td><td>359,032,846.30</td><=
+td>325,482.84</td><td>427.36%</td></tr><tr role=3D"row" class=3D"even"><td>=
+<a title=3D"Vaults" using=3D"" wsteth-a=3D"" href=3D"https://tracker-vaults=
+.makerdao.network/collateral/WSTETH-A">WSTETH-A</a></td><td>100</td><td>463=
+</td><td>681,654,022.92</td><td class=3D"sorting_1">221,546,942.18</td><td>=
+199,163,399.11</td><td>148,255.44</td><td>307.68%</td></tr><tr role=3D"row"=
+ class=3D"odd"><td><a title=3D"Vaults" using=3D"" eth-a=3D"" href=3D"https:=
+//tracker-vaults.makerdao.network/collateral/ETH-A">ETH-A</a></td><td>1,069=
+</td><td>19,177</td><td>843,777,500.18</td><td class=3D"sorting_1">199,771,=
+724.91</td><td>373,943,203.98</td><td>287,981.17</td><td>422.37%</td></tr><=
+tr role=3D"row" class=3D"even"><td><a title=3D"Vaults" using=3D"" guniv3dai=
+usdc2-a=3D"" href=3D"https://tracker-vaults.makerdao.network/collateral/GUN=
+IV3DAIUSDC2-A">GUNIV3DAIUSDC2-A</a></td><td>35</td><td>264</td><td>106,683,=
+131.83</td><td class=3D"sorting_1">104,106,152.58</td><td>482,493.00</td><t=
+d>2,427.65</td><td>102.48%</td></tr><tr role=3D"row" class=3D"odd"><td><a t=
+itle=3D"Vaults" using=3D"" rwa009-a=3D"" href=3D"https://tracker-vaults.mak=
+erdao.network/collateral/RWA009-A">RWA009-A</a></td><td>1</td><td>1</td><td=
+>1.00</td><td class=3D"sorting_1">100,000,000.00</td><td>-99,999,999.00</td=
+><td>-99,999,999.00</td><td>0.00%</td></tr><tr role=3D"row" class=3D"even">=
+<td><a title=3D"Vaults" using=3D"" psm-pax-a=3D"" href=3D"https://tracker-v=
+aults.makerdao.network/collateral/PSM-PAX-A">PSM-PAX-A</a></td><td>1</td><t=
+d>1</td><td>93,796,225.18</td><td class=3D"sorting_1">93,796,225.18</td><td=
+>0.00</td><td>0.00</td><td>100.00%</td></tr><tr role=3D"row" class=3D"odd">=
+<td><a title=3D"Vaults" using=3D"" rwa013-a=3D"" href=3D"https://tracker-va=
+ults.makerdao.network/collateral/RWA013-A">RWA013-A</a></td><td>1</td><td>1=
+</td><td>1.00</td><td class=3D"sorting_1">69,507,287.48</td><td>-69,507,286=
+.48</td><td>-69,507,286.48</td><td>0.00%</td></tr><tr role=3D"row" class=3D=
+"even"><td><a title=3D"Vaults" using=3D"" guniv3daiusdc1-a=3D"" href=3D"htt=
+ps://tracker-vaults.makerdao.network/collateral/GUNIV3DAIUSDC1-A">GUNIV3DAI=
+USDC1-A</a></td><td>25</td><td>260</td><td>61,333,942.62</td><td class=3D"s=
+orting_1">59,841,202.25</td><td>290,114.05</td><td>289.19</td><td>102.49%</=
+td></tr><tr role=3D"row" class=3D"odd"><td><a title=3D"Vaults" using=3D"" e=
+th-b=3D"" href=3D"https://tracker-vaults.makerdao.network/collateral/ETH-B"=
+>ETH-B</a></td><td>86</td><td>1,086</td><td>136,240,873.53</td><td class=3D=
+"sorting_1">48,319,948.99</td><td>59,682,485.01</td><td>41,561.18</td><td>2=
+81.96%</td></tr><tr role=3D"row" class=3D"even"><td><a title=3D"Vaults" usi=
+ng=3D"" wbtc-c=3D"" href=3D"https://tracker-vaults.makerdao.network/collate=
+ral/WBTC-C">WBTC-C</a></td><td>118</td><td>379</td><td>105,593,289.49</td><=
+td class=3D"sorting_1">35,675,093.62</td><td>29,979,498.86</td><td>1,851.77=
+</td><td>295.99%</td></tr><tr role=3D"row" class=3D"odd"><td><a title=3D"Va=
+ults" using=3D"" wbtc-a=3D"" href=3D"https://tracker-vaults.makerdao.networ=
+k/collateral/WBTC-A">WBTC-A</a></td><td>159</td><td>2,519</td><td>111,807,7=
+54.29</td><td class=3D"sorting_1">32,899,896.48</td><td>46,338,018.99</td><=
+td>2,471.02</td><td>339.84%</td></tr><tr role=3D"row" class=3D"even"><td><a=
+ title=3D"Vaults" using=3D"" rwa012-a=3D"" href=3D"https://tracker-vaults.m=
+akerdao.network/collateral/RWA012-A">RWA012-A</a></td><td>1</td><td>1</td><=
+td>1.00</td><td class=3D"sorting_1">32,657,685.00</td><td>-32,657,684.00</t=
+d><td>-32,657,684.00</td><td>0.00%</td></tr><tr role=3D"row" class=3D"odd">=
+<td><a title=3D"Vaults" using=3D"" reth-a=3D"" href=3D"https://tracker-vaul=
+ts.makerdao.network/collateral/RETH-A">RETH-A</a></td><td>50</td><td>82</td=
+><td>60,241,416.20</td><td class=3D"sorting_1">21,903,371.17</td><td>12,070=
+,239.42</td><td>10,246.04</td><td>275.03%</td></tr><tr role=3D"row" class=
+=3D"even"><td><a title=3D"Vaults" using=3D"" univ2daiusdc-a=3D"" href=3D"ht=
+tps://tracker-vaults.makerdao.network/collateral/UNIV2DAIUSDC-A">UNIV2DAIUS=
+DC-A</a></td><td>12</td><td>79</td><td>20,529,763.06</td><td class=3D"sorti=
+ng_1">20,050,131.11</td><td>77,087.58</td><td>0.03</td><td>102.39%</td></tr=
+><tr role=3D"row" class=3D"odd"><td><a title=3D"Vaults" using=3D"" direct-s=
+park-dai=3D"" href=3D"https://tracker-vaults.makerdao.network/collateral/DI=
+RECT-SPARK-DAI">DIRECT-SPARK-DAI</a></td><td>1</td><td>1</td><td>20,000,000=
+.00</td><td class=3D"sorting_1">20,000,000.00</td><td>0.00</td><td>0.00</td=
+><td>100.00%</td></tr><tr role=3D"row" class=3D"even"><td><a title=3D"Vault=
+s" using=3D"" rwa001-a=3D"" href=3D"https://tracker-vaults.makerdao.network=
+/collateral/RWA001-A">RWA001-A</a></td><td>1</td><td>1</td><td>1.00</td><td=
+ class=3D"sorting_1">14,348,036.50</td><td>-14,348,035.50</td><td>-14,348,0=
+35.50</td><td>0.00%</td></tr><tr role=3D"row" class=3D"odd"><td><a title=3D=
+"Vaults" using=3D"" wbtc-b=3D"" href=3D"https://tracker-vaults.makerdao.net=
+work/collateral/WBTC-B">WBTC-B</a></td><td>45</td><td>151</td><td>34,887,15=
+1.91</td><td class=3D"sorting_1">11,861,047.08</td><td>12,424,498.41</td><t=
+d>597.29</td><td>294.13%</td></tr><tr role=3D"row" class=3D"even"><td><a ti=
+tle=3D"Vaults" using=3D"" rwa005-a=3D"" href=3D"https://tracker-vaults.make=
+rdao.network/collateral/RWA005-A">RWA005-A</a></td><td>1</td><td>1</td><td>=
+1.00</td><td class=3D"sorting_1">5,796,912.22</td><td>-5,796,911.27</td><td=
+>-6,086,756.83</td><td>0.00%</td></tr><tr role=3D"row" class=3D"odd"><td><a=
+ title=3D"Vaults" using=3D"" rwa002-a=3D"" href=3D"https://tracker-vaults.m=
+akerdao.network/collateral/RWA002-A">RWA002-A</a></td><td>1</td><td>1</td><=
+td>1.00</td><td class=3D"sorting_1">4,205,169.63</td><td>-4,205,168.68</td>=
+<td>-4,415,427.11</td><td>0.00%</td></tr><tr role=3D"row" class=3D"even"><t=
+d><a title=3D"Vaults" using=3D"" rwa003-a=3D"" href=3D"https://tracker-vaul=
+ts.makerdao.network/collateral/RWA003-A">RWA003-A</a></td><td>1</td><td>1</=
+td><td>1.00</td><td class=3D"sorting_1">1,808,364.87</td><td>-1,808,363.92<=
+/td><td>-1,898,782.12</td><td>0.00%</td></tr><tr role=3D"row" class=3D"odd"=
+><td><a title=3D"Vaults" using=3D"" rwa004-a=3D"" href=3D"https://tracker-v=
+aults.makerdao.network/collateral/RWA004-A">RWA004-A</a></td><td>1</td><td>=
+1</td><td>1.00</td><td class=3D"sorting_1">1,468,186.75</td><td>-1,468,185.=
+84</td><td>-1,615,004.42</td><td>0.00%</td></tr><tr role=3D"row" class=3D"e=
+ven"><td><a title=3D"Vaults" using=3D"" crvv1ethsteth-a=3D"" href=3D"https:=
+//tracker-vaults.makerdao.network/collateral/CRVV1ETHSTETH-A">CRVV1ETHSTETH=
+-A</a></td><td>4</td><td>42</td><td>1,299,869.01</td><td class=3D"sorting_1=
+">565,330.71</td><td>260,992.89</td><td>200.93</td><td>229.93%</td></tr><tr=
+ role=3D"row" class=3D"odd"><td><a title=3D"Vaults" using=3D"" sai=3D"" hre=
+f=3D"https://tracker-vaults.makerdao.network/collateral/SAI">SAI</a></td><t=
+d>0</td><td>1</td><td>0.00</td><td class=3D"sorting_1">0.00</td><td>0.00</t=
+d><td>0.00</td><td>-</td></tr><tr role=3D"row" class=3D"even"><td><a title=
+=3D"Vaults" using=3D"" tusd-a=3D"" href=3D"https://tracker-vaults.makerdao.=
+network/collateral/TUSD-A">TUSD-A</a></td><td>0</td><td>64</td><td>9.45</td=
+><td class=3D"sorting_1">0.00</td><td>6.30</td><td>9.45</td><td>-</td></tr>=
+<tr role=3D"row" class=3D"odd"><td><a title=3D"Vaults" using=3D"" knc-a=3D"=
+" href=3D"https://tracker-vaults.makerdao.network/collateral/KNC-A">KNC-A</=
+a></td><td>0</td><td>122</td><td>781.94</td><td class=3D"sorting_1">0.00</t=
+d><td>15.66</td><td>420.37</td><td>-</td></tr><tr role=3D"row" class=3D"eve=
+n"><td><a title=3D"Vaults" using=3D"" usdt-a=3D"" href=3D"https://tracker-v=
+aults.makerdao.network/collateral/USDT-A">USDT-A</a></td><td>0</td><td>39</=
+td><td>5.75</td><td class=3D"sorting_1">0.00</td><td>1.92</td><td>5.75</td>=
+<td>-</td></tr><tr role=3D"row" class=3D"odd"><td><a title=3D"Vaults" using=
+=3D"" paxusd-a=3D"" href=3D"https://tracker-vaults.makerdao.network/collate=
+ral/PAXUSD-A">PAXUSD-A</a></td><td>0</td><td>34</td><td>2.79</td><td class=
+=3D"sorting_1">0.00</td><td>0.19</td><td>2.79</td><td>-</td></tr><tr role=
+=3D"row" class=3D"even"><td><a title=3D"Vaults" using=3D"" comp-a=3D"" href=
+=3D"https://tracker-vaults.makerdao.network/collateral/COMP-A">COMP-A</a></=
+td><td>0</td><td>57</td><td>1,980.66</td><td class=3D"sorting_1">0.00</td><=
+td>99.03</td><td>15.90</td><td>-</td></tr><tr role=3D"row" class=3D"odd"><t=
+d><a title=3D"Vaults" using=3D"" bat-a=3D"" href=3D"https://tracker-vaults.=
+makerdao.network/collateral/BAT-A">BAT-A</a></td><td>0</td><td>753</td><td>=
+12,079.36</td><td class=3D"sorting_1">0.00</td><td>107.85</td><td>16,547.07=
+</td><td>-</td></tr><tr role=3D"row" class=3D"even"><td><a title=3D"Vaults"=
+ using=3D"" usdc-b=3D"" href=3D"https://tracker-vaults.makerdao.network/col=
+lateral/USDC-B">USDC-B</a></td><td>0</td><td>40</td><td>472.00</td><td clas=
+s=3D"sorting_1">0.00</td><td>393.33</td><td>472.00</td><td>-</td></tr><tr r=
+ole=3D"row" class=3D"odd"><td><a title=3D"Vaults" using=3D"" usdc-a=3D"" hr=
+ef=3D"https://tracker-vaults.makerdao.network/collateral/USDC-A">USDC-A</a>=
+</td><td>0</td><td>1,311</td><td>1,235.17</td><td class=3D"sorting_1">0.00<=
+/td><td>82.34</td><td>1,235.17</td><td>-</td></tr><tr role=3D"row" class=3D=
+"even"><td><a title=3D"Vaults" using=3D"" zrx-a=3D"" href=3D"https://tracke=
+r-vaults.makerdao.network/collateral/ZRX-A">ZRX-A</a></td><td>0</td><td>97<=
+/td><td>23,379.80</td><td class=3D"sorting_1">0.00</td><td>425.09</td><td>4=
+3,289.52</td><td>-</td></tr><tr role=3D"row" class=3D"odd"><td><a title=3D"=
+Vaults" using=3D"" mana-a=3D"" href=3D"https://tracker-vaults.makerdao.netw=
+ork/collateral/MANA-A">MANA-A</a></td><td>0</td><td>60</td><td>0.00</td><td=
+ class=3D"sorting_1">0.00</td><td>0.00</td><td>0.00</td><td>-</td></tr><tr =
+role=3D"row" class=3D"even"><td><a title=3D"Vaults" using=3D"" lrc-a=3D"" h=
+ref=3D"https://tracker-vaults.makerdao.network/collateral/LRC-A">LRC-A</a><=
+/td><td>0</td><td>94</td><td>15.97</td><td class=3D"sorting_1">0.00</td><td=
+>0.07</td><td>19.68</td><td>-</td></tr><tr role=3D"row" class=3D"odd"><td><=
+a title=3D"Vaults" using=3D"" link-a=3D"" href=3D"https://tracker-vaults.ma=
+kerdao.network/collateral/LINK-A">LINK-A</a></td><td>0</td><td>533</td><td>=
+125,851.03</td><td class=3D"sorting_1">0.00</td><td>1,579.57</td><td>24,770=
+.36</td><td>-</td></tr><tr role=3D"row" class=3D"even"><td><a title=3D"Vaul=
+ts" using=3D"" bal-a=3D"" href=3D"https://tracker-vaults.makerdao.network/c=
+ollateral/BAL-A">BAL-A</a></td><td>0</td><td>36</td><td>0.00</td><td class=
+=3D"sorting_1">0.00</td><td>0.00</td><td>0.00</td><td>-</td></tr><tr role=
+=3D"row" class=3D"odd"><td><a title=3D"Vaults" using=3D"" yfi-a=3D"" href=
+=3D"https://tracker-vaults.makerdao.network/collateral/YFI-A">YFI-A</a></td=
+><td>0</td><td>320</td><td>107,725.32</td><td class=3D"sorting_1">0.00</td>=
+<td>1,077.25</td><td>16.75</td><td>-</td></tr><tr role=3D"row" class=3D"eve=
+n"><td><a title=3D"Vaults" using=3D"" gusd-a=3D"" href=3D"https://tracker-v=
+aults.makerdao.network/collateral/GUSD-A">GUSD-A</a></td><td>0</td><td>26</=
+td><td>0.02</td><td class=3D"sorting_1">0.00</td><td>0.00</td><td>0.02</td>=
+<td>-</td></tr><tr role=3D"row" class=3D"odd"><td><a title=3D"Vaults" using=
+=3D"" uni-a=3D"" href=3D"https://tracker-vaults.makerdao.network/collateral=
+/UNI-A">UNI-A</a></td><td>0</td><td>298</td><td>140,233.18</td><td class=3D=
+"sorting_1">0.00</td><td>10,787.17</td><td>23,989.68</td><td>-</td></tr><tr=
+ role=3D"row" class=3D"even"><td><a title=3D"Vaults" using=3D"" renbtc-a=3D=
+"" href=3D"https://tracker-vaults.makerdao.network/collateral/RENBTC-A">REN=
+BTC-A</a></td><td>0</td><td>154</td><td>12,397.84</td><td class=3D"sorting_=
+1">0.00</td><td>247.96</td><td>0.46</td><td>-</td></tr><tr role=3D"row" cla=
+ss=3D"odd"><td><a title=3D"Vaults" using=3D"" aave-a=3D"" href=3D"https://t=
+racker-vaults.makerdao.network/collateral/AAVE-A">AAVE-A</a></td><td>0</td>=
+<td>124</td><td>490,201.52</td><td class=3D"sorting_1">0.00</td><td>23,342.=
+93</td><td>3,250.84</td><td>-</td></tr><tr role=3D"row" class=3D"even"><td>=
+<a title=3D"Vaults" using=3D"" univ2daieth-a=3D"" href=3D"https://tracker-v=
+aults.makerdao.network/collateral/UNIV2DAIETH-A">UNIV2DAIETH-A</a></td><td>=
+0</td><td>112</td><td>112.19</td><td class=3D"sorting_1">0.00</td><td>5.61<=
+/td><td>1.01</td><td>-</td></tr><tr role=3D"row" class=3D"odd"><td><a title=
+=3D"Vaults" using=3D"" univ2wbtceth-a=3D"" href=3D"https://tracker-vaults.m=
+akerdao.network/collateral/UNIV2WBTCETH-A">UNIV2WBTCETH-A</a></td><td>0</td=
+><td>45</td><td>0.34</td><td class=3D"sorting_1">0.00</td><td>0.01</td><td>=
+0.00</td><td>-</td></tr><tr role=3D"row" class=3D"even"><td><a title=3D"Vau=
+lts" using=3D"" univ2usdceth-a=3D"" href=3D"https://tracker-vaults.makerdao=
+.network/collateral/UNIV2USDCETH-A">UNIV2USDCETH-A</a></td><td>0</td><td>10=
+5</td><td>1,459.36</td><td class=3D"sorting_1">0.00</td><td>14.59</td><td>0=
+.00</td><td>-</td></tr><tr role=3D"row" class=3D"odd"><td><a title=3D"Vault=
+s" using=3D"" univ2ethusdt-a=3D"" href=3D"https://tracker-vaults.makerdao.n=
+etwork/collateral/UNIV2ETHUSDT-A">UNIV2ETHUSDT-A</a></td><td>0</td><td>24</=
+td><td>0.00</td><td class=3D"sorting_1">0.00</td><td>0.00</td><td>0.00</td>=
+<td>-</td></tr><tr role=3D"row" class=3D"even"><td><a title=3D"Vaults" usin=
+g=3D"" univ2linketh-a=3D"" href=3D"https://tracker-vaults.makerdao.network/=
+collateral/UNIV2LINKETH-A">UNIV2LINKETH-A</a></td><td>0</td><td>20</td><td>=
+0.00</td><td class=3D"sorting_1">0.00</td><td>0.00</td><td>0.00</td><td>-</=
+td></tr><tr role=3D"row" class=3D"odd"><td><a title=3D"Vaults" using=3D"" u=
+niv2unieth-a=3D"" href=3D"https://tracker-vaults.makerdao.network/collatera=
+l/UNIV2UNIETH-A">UNIV2UNIETH-A</a></td><td>0</td><td>43</td><td>5.91</td><t=
+d class=3D"sorting_1">0.00</td><td>3.69</td><td>0.02</td><td>-</td></tr><tr=
+ role=3D"row" class=3D"even"><td><a title=3D"Vaults" using=3D"" univ2wbtcda=
+i-a=3D"" href=3D"https://tracker-vaults.makerdao.network/collateral/UNIV2WB=
+TCDAI-A">UNIV2WBTCDAI-A</a></td><td>0</td><td>17</td><td>0.00</td><td class=
+=3D"sorting_1">0.00</td><td>0.00</td><td>0.00</td><td>-</td></tr><tr role=
+=3D"row" class=3D"odd"><td><a title=3D"Vaults" using=3D"" univ2aaveeth-a=3D=
+"" href=3D"https://tracker-vaults.makerdao.network/collateral/UNIV2AAVEETH-=
+A">UNIV2AAVEETH-A</a></td><td>0</td><td>5</td><td>0.00</td><td class=3D"sor=
+ting_1">0.00</td><td>0.00</td><td>0.00</td><td>-</td></tr><tr role=3D"row" =
+class=3D"even"><td><a title=3D"Vaults" using=3D"" univ2daiusdt-a=3D"" href=
+=3D"https://tracker-vaults.makerdao.network/collateral/UNIV2DAIUSDT-A">UNIV=
+2DAIUSDT-A</a></td><td>0</td><td>1</td><td>0.00</td><td class=3D"sorting_1"=
+>0.00</td><td>0.00</td><td>0.00</td><td>-</td></tr><tr role=3D"row" class=
+=3D"odd"><td><a title=3D"Vaults" using=3D"" rwa006-a=3D"" href=3D"https://t=
+racker-vaults.makerdao.network/collateral/RWA006-A">RWA006-A</a></td><td>0<=
+/td><td>0</td><td>0.00</td><td class=3D"sorting_1">0.00</td><td>0.00</td><t=
+d>0.00</td><td>-</td></tr><tr role=3D"row" class=3D"even"><td><a title=3D"V=
+aults" using=3D"" direct-aavev2-dai=3D"" href=3D"https://tracker-vaults.mak=
+erdao.network/collateral/DIRECT-AAVEV2-DAI">DIRECT-AAVEV2-DAI</a></td><td>0=
+</td><td>2</td><td>0.00</td><td class=3D"sorting_1">0.00</td><td>0.00</td><=
+td>0.00</td><td>-</td></tr><tr role=3D"row" class=3D"odd"><td><a title=3D"V=
+aults" using=3D"" matic-a=3D"" href=3D"https://tracker-vaults.makerdao.netw=
+ork/collateral/MATIC-A">MATIC-A</a></td><td>0</td><td>36</td><td>46,819.06<=
+/td><td class=3D"sorting_1">0.00</td><td>468.19</td><td>52,765.77</td><td>-=
+</td></tr><tr role=3D"row" class=3D"even"><td><a title=3D"Vaults" using=3D"=
+" rwa008-a=3D"" href=3D"https://tracker-vaults.makerdao.network/collateral/=
+RWA008-A">RWA008-A</a></td><td>0</td><td>1</td><td>0.00</td><td class=3D"so=
+rting_1">0.00</td><td>0.00</td><td>0.00</td><td>-</td></tr><tr role=3D"row"=
+ class=3D"odd"><td><a title=3D"Vaults" using=3D"" teleport-fw-a=3D"" href=
+=3D"https://tracker-vaults.makerdao.network/collateral/TELEPORT-FW-A">TELEP=
+ORT-FW-A</a></td><td>0</td><td>1</td><td>0.00</td><td class=3D"sorting_1">0=
+.00</td><td>0.00</td><td>0.00</td><td>-</td></tr><tr role=3D"row" class=3D"=
+even"><td><a title=3D"Vaults" using=3D"" direct-compv2-dai=3D"" href=3D"htt=
+ps://tracker-vaults.makerdao.network/collateral/DIRECT-COMPV2-DAI">DIRECT-C=
+OMPV2-DAI</a></td><td>0</td><td>1</td><td>0.00</td><td class=3D"sorting_1">=
+0.00</td><td>0.00</td><td>0.00</td><td>-</td></tr><tr role=3D"row" class=3D=
+"odd"><td><a title=3D"Vaults" using=3D"" rwa011-a=3D"" href=3D"https://trac=
+ker-vaults.makerdao.network/collateral/RWA011-A">RWA011-A</a></td><td>0</td=
+><td>1</td><td>1.00</td><td class=3D"sorting_1">0.00</td><td>1.00</td><td>1=
+.00</td><td>-</td></tr><tr role=3D"row" class=3D"even"><td><a title=3D"Vaul=
+ts" using=3D"" rwa010-a=3D"" href=3D"https://tracker-vaults.makerdao.networ=
+k/collateral/RWA010-A">RWA010-A</a></td><td>0</td><td>1</td><td>1.00</td><t=
+d class=3D"sorting_1">0.00</td><td>1.00</td><td>1.00</td><td>-</td></tr><tr=
+ role=3D"row" class=3D"odd"><td><a title=3D"Vaults" using=3D"" gno-a=3D"" h=
+ref=3D"https://tracker-vaults.makerdao.network/collateral/GNO-A">GNO-A</a><=
+/td><td>0</td><td>2</td><td>26,469.54</td><td class=3D"sorting_1">0.00</td>=
+<td>7,562.72</td><td>229.73</td><td>-</td></tr></tbody></table></div>
+                    </div>
+                </div>
+
+                <div id=3D"cover" class=3D"loader" style=3D"margin-top: 20%=
+; margin-left: auto; margin-right: auto; display: none;"></div>
+
+            </div>
+
+        </div>
+
+        <div class=3D"footer shadow">
+            <div>
+    =C2=A9 2021 DAI Foundation |
+    Licensed under the <a href=3D"https://www.apache.org/licenses/LICENSE-2=
+.0" target=3D"_blank">Apache 2.0</a> license |
+    API (<a href=3D"https://data-api.makerdao.network/redoc" target=3D"_bla=
+nk">ReDoc</a> | <a target=3D"_blank" href=3D"https://data-api.makerdao.netw=
+ork/docs">Swagger UI</a>) |
+    Powered by <b><a href=3D"https://tokenflow.live/" target=3D"_blank">Tok=
+en Flow</a></b> |
+    Brought to you by <b><a href=3D"https://data.makerdao.network/" target=
+=3D"_blank">Data Insights Core Unit</a></b>
+</div>
+        </div>
+
+    </div><svg id=3D"js-plotly-tester" xmlns=3D"http://www.w3.org/2000/svg"=
+ xmlns:xlink=3D"http://www.w3.org/1999/xlink" style=3D"position: absolute; =
+left: -10000px; top: -10000px; width: 9000px; height: 9000px; z-index: 1;">=
+<path class=3D"js-reference-point" d=3D"M0,0H1V1H0Z" style=3D"stroke-width:=
+ 0; fill: black;"></path></svg>
+
+   =20
+
+
+</body></html>
+------MultipartBoundary--XltSfeKDha3yxaqWot69ZKZO5bicY0EA8VQYklsI0X----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d85a00f0-6c6c-4358-9e93-607c65828341@mhtml.blink
+
+@charset "utf-8";
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-logo { display: block; width: 21px; =
+height: 21px; background-image: url("data:image/svg+xml;charset=3Dutf-8,%3C=
+?xml version=3D\"1.0\" encoding=3D\"utf-8\"?%3E %3Csvg version=3D\"1.1\" id=
+=3D\"Layer_1\" xmlns=3D\"http://www.w3.org/2000/svg\" xmlns:xlink=3D\"http:=
+//www.w3.org/1999/xlink\" x=3D\"0px\" y=3D\"0px\" viewBox=3D\"0 0 21 21\" s=
+tyle=3D\"enable-background:new 0 0 21 21;\" xml:space=3D\"preserve\"%3E%3Cg=
+ transform=3D\"translate(0,0.01)\"%3E%3Cpath d=3D\"m 10.5,1.24 c -5.11,0 -9=
+.25,4.15 -9.25,9.25 0,5.1 4.15,9.25 9.25,9.25 5.1,0 9.25,-4.15 9.25,-9.25 0=
+,-5.11 -4.14,-9.25 -9.25,-9.25 z m 4.39,11.53 c -1.93,1.93 -4.78,2.31 -6.7,=
+2.31 -0.7,0 -1.41,-0.05 -2.1,-0.16 0,0 -1.02,-5.64 2.14,-8.81 0.83,-0.83 1.=
+95,-1.28 3.13,-1.28 1.27,0 2.49,0.51 3.39,1.42 1.84,1.84 1.89,4.75 0.14,6.5=
+2 z\" style=3D\"opacity:0.9;fill:%23ffffff;enable-background:new\" class=3D=
+\"st0\"/%3E%3Cpath d=3D\"M 10.5,-0.01 C 4.7,-0.01 0,4.7 0,10.49 c 0,5.79 4.=
+7,10.5 10.5,10.5 5.8,0 10.5,-4.7 10.5,-10.5 C 20.99,4.7 16.3,-0.01 10.5,-0.=
+01 Z m 0,19.75 c -5.11,0 -9.25,-4.15 -9.25,-9.25 0,-5.1 4.14,-9.26 9.25,-9.=
+26 5.11,0 9.25,4.15 9.25,9.25 0,5.13 -4.14,9.26 -9.25,9.26 z\" style=3D\"op=
+acity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpath d=3D\"M 14.74=
+,6.25 C 12.9,4.41 9.98,4.35 8.23,6.1 5.07,9.27 6.09,14.91 6.09,14.91 c 0,0 =
+5.64,1.02 8.81,-2.14 C 16.64,11 16.59,8.09 14.74,6.25 Z m -2.27,4.09 -0.91,=
+1.87 -0.9,-1.87 -1.86,-0.91 1.86,-0.9 0.9,-1.87 0.91,1.87 1.86,0.9 z\" styl=
+e=3D\"opacity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpolygon po=
+ints=3D\"11.56,12.21 10.66,10.34 8.8,9.43 10.66,8.53 11.56,6.66 12.47,8.53 =
+14.33,9.43 12.47,10.34 \" style=3D\"opacity:0.9;fill:%23ffffff;enable-backg=
+round:new\" class=3D\"st0\"/%3E%3C/g%3E%3C/svg%3E"); }
+
+.js-plotly-plot .plotly .mapboxgl-attrib-empty { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib .mapbox-improve-map { font-we=
+ight: bold; margin-left: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a:hover { color: inherit; tex=
+t-decoration: underline; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a { color: rgba(0, 0, 0, 0.75=
+); text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib { color: rgba(0, 0, 0, 0.75);=
+ text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right .mapboxgl-ctrl { margin=
+: 0px 10px 10px 0px; float: right; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left .mapboxgl-ctrl { margin:=
+ 0px 0px 10px 10px; float: left; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left > .mapboxgl-ctrl-attrib.=
+mapboxgl-compact::after { bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right > .mapboxgl-ctrl-attrib=
+.mapboxgl-compact::after { bottom: 0px; right: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact { min-height=
+: 20px; padding: 0px; margin: 10px; position: relative; background-color: r=
+gb(255, 255, 255); border-radius: 3px 12px 12px 3px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact::after { con=
+tent: ""; cursor: pointer; position: absolute; background-image: url("data:=
+image/svg+xml;charset=3Dutf-8,%3Csvg viewBox=3D\"0 0 20 20\" xmlns=3D\"http=
+://www.w3.org/2000/svg\"%3E %3Cpath fill=3D\"%23333333\" fill-rule=3D\"even=
+odd\" d=3D\"M4,10a6,6 0 1,0 12,0a6,6 0 1,0 -12,0 M9,7a1,1 0 1,0 2,0a1,1 0 1=
+,0 -2,0 M9,10a1,1 0 1,1 2,0l0,3a1,1 0 1,1 -2,0\"/%3E %3C/svg%3E"); backgrou=
+nd-color: rgba(255, 255, 255, 0.5); width: 24px; height: 24px; box-sizing: =
+border-box; border-radius: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover { padd=
+ing: 2px 24px 2px 4px; visibility: visible; margin-top: 6px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover .mapbo=
+xgl-ctrl-attrib-inner { display: block; margin-top: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact .mapboxgl-ct=
+rl-attrib-inner { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl { clear: both; pointer-events: auto;=
+ transform: translate(0px, 0px); }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right { position: absolute; p=
+ointer-events: none; z-index: 2; right: 0px; bottom: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left { position: absolute; po=
+inter-events: none; z-index: 2; bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-canary { background-color: salmon; }
+
+.js-plotly-plot .plotly .mapboxgl-missing-css { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-map { overflow: hidden; position: relativ=
+e; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-logo { display: block; width: 21px; =
+height: 21px; background-image: url("data:image/svg+xml;charset=3Dutf-8,%3C=
+?xml version=3D\"1.0\" encoding=3D\"utf-8\"?%3E %3Csvg version=3D\"1.1\" id=
+=3D\"Layer_1\" xmlns=3D\"http://www.w3.org/2000/svg\" xmlns:xlink=3D\"http:=
+//www.w3.org/1999/xlink\" x=3D\"0px\" y=3D\"0px\" viewBox=3D\"0 0 21 21\" s=
+tyle=3D\"enable-background:new 0 0 21 21;\" xml:space=3D\"preserve\"%3E%3Cg=
+ transform=3D\"translate(0,0.01)\"%3E%3Cpath d=3D\"m 10.5,1.24 c -5.11,0 -9=
+.25,4.15 -9.25,9.25 0,5.1 4.15,9.25 9.25,9.25 5.1,0 9.25,-4.15 9.25,-9.25 0=
+,-5.11 -4.14,-9.25 -9.25,-9.25 z m 4.39,11.53 c -1.93,1.93 -4.78,2.31 -6.7,=
+2.31 -0.7,0 -1.41,-0.05 -2.1,-0.16 0,0 -1.02,-5.64 2.14,-8.81 0.83,-0.83 1.=
+95,-1.28 3.13,-1.28 1.27,0 2.49,0.51 3.39,1.42 1.84,1.84 1.89,4.75 0.14,6.5=
+2 z\" style=3D\"opacity:0.9;fill:%23ffffff;enable-background:new\" class=3D=
+\"st0\"/%3E%3Cpath d=3D\"M 10.5,-0.01 C 4.7,-0.01 0,4.7 0,10.49 c 0,5.79 4.=
+7,10.5 10.5,10.5 5.8,0 10.5,-4.7 10.5,-10.5 C 20.99,4.7 16.3,-0.01 10.5,-0.=
+01 Z m 0,19.75 c -5.11,0 -9.25,-4.15 -9.25,-9.25 0,-5.1 4.14,-9.26 9.25,-9.=
+26 5.11,0 9.25,4.15 9.25,9.25 0,5.13 -4.14,9.26 -9.25,9.26 z\" style=3D\"op=
+acity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpath d=3D\"M 14.74=
+,6.25 C 12.9,4.41 9.98,4.35 8.23,6.1 5.07,9.27 6.09,14.91 6.09,14.91 c 0,0 =
+5.64,1.02 8.81,-2.14 C 16.64,11 16.59,8.09 14.74,6.25 Z m -2.27,4.09 -0.91,=
+1.87 -0.9,-1.87 -1.86,-0.91 1.86,-0.9 0.9,-1.87 0.91,1.87 1.86,0.9 z\" styl=
+e=3D\"opacity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpolygon po=
+ints=3D\"11.56,12.21 10.66,10.34 8.8,9.43 10.66,8.53 11.56,6.66 12.47,8.53 =
+14.33,9.43 12.47,10.34 \" style=3D\"opacity:0.9;fill:%23ffffff;enable-backg=
+round:new\" class=3D\"st0\"/%3E%3C/g%3E%3C/svg%3E"); }
+
+.js-plotly-plot .plotly .mapboxgl-attrib-empty { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib .mapbox-improve-map { font-we=
+ight: bold; margin-left: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a:hover { color: inherit; tex=
+t-decoration: underline; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a { color: rgba(0, 0, 0, 0.75=
+); text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib { color: rgba(0, 0, 0, 0.75);=
+ text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right .mapboxgl-ctrl { margin=
+: 0px 10px 10px 0px; float: right; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left .mapboxgl-ctrl { margin:=
+ 0px 0px 10px 10px; float: left; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left > .mapboxgl-ctrl-attrib.=
+mapboxgl-compact::after { bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right > .mapboxgl-ctrl-attrib=
+.mapboxgl-compact::after { bottom: 0px; right: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact { min-height=
+: 20px; padding: 0px; margin: 10px; position: relative; background-color: r=
+gb(255, 255, 255); border-radius: 3px 12px 12px 3px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact::after { con=
+tent: ""; cursor: pointer; position: absolute; background-image: url("data:=
+image/svg+xml;charset=3Dutf-8,%3Csvg viewBox=3D\"0 0 20 20\" xmlns=3D\"http=
+://www.w3.org/2000/svg\"%3E %3Cpath fill=3D\"%23333333\" fill-rule=3D\"even=
+odd\" d=3D\"M4,10a6,6 0 1,0 12,0a6,6 0 1,0 -12,0 M9,7a1,1 0 1,0 2,0a1,1 0 1=
+,0 -2,0 M9,10a1,1 0 1,1 2,0l0,3a1,1 0 1,1 -2,0\"/%3E %3C/svg%3E"); backgrou=
+nd-color: rgba(255, 255, 255, 0.5); width: 24px; height: 24px; box-sizing: =
+border-box; border-radius: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover { padd=
+ing: 2px 24px 2px 4px; visibility: visible; margin-top: 6px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover .mapbo=
+xgl-ctrl-attrib-inner { display: block; margin-top: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact .mapboxgl-ct=
+rl-attrib-inner { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl { clear: both; pointer-events: auto;=
+ transform: translate(0px, 0px); }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right { position: absolute; p=
+ointer-events: none; z-index: 2; right: 0px; bottom: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left { position: absolute; po=
+inter-events: none; z-index: 2; bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-canary { background-color: salmon; }
+
+.js-plotly-plot .plotly .mapboxgl-missing-css { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-map { overflow: hidden; position: relativ=
+e; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-logo { display: block; width: 21px; =
+height: 21px; background-image: url("data:image/svg+xml;charset=3Dutf-8,%3C=
+?xml version=3D\"1.0\" encoding=3D\"utf-8\"?%3E %3Csvg version=3D\"1.1\" id=
+=3D\"Layer_1\" xmlns=3D\"http://www.w3.org/2000/svg\" xmlns:xlink=3D\"http:=
+//www.w3.org/1999/xlink\" x=3D\"0px\" y=3D\"0px\" viewBox=3D\"0 0 21 21\" s=
+tyle=3D\"enable-background:new 0 0 21 21;\" xml:space=3D\"preserve\"%3E%3Cg=
+ transform=3D\"translate(0,0.01)\"%3E%3Cpath d=3D\"m 10.5,1.24 c -5.11,0 -9=
+.25,4.15 -9.25,9.25 0,5.1 4.15,9.25 9.25,9.25 5.1,0 9.25,-4.15 9.25,-9.25 0=
+,-5.11 -4.14,-9.25 -9.25,-9.25 z m 4.39,11.53 c -1.93,1.93 -4.78,2.31 -6.7,=
+2.31 -0.7,0 -1.41,-0.05 -2.1,-0.16 0,0 -1.02,-5.64 2.14,-8.81 0.83,-0.83 1.=
+95,-1.28 3.13,-1.28 1.27,0 2.49,0.51 3.39,1.42 1.84,1.84 1.89,4.75 0.14,6.5=
+2 z\" style=3D\"opacity:0.9;fill:%23ffffff;enable-background:new\" class=3D=
+\"st0\"/%3E%3Cpath d=3D\"M 10.5,-0.01 C 4.7,-0.01 0,4.7 0,10.49 c 0,5.79 4.=
+7,10.5 10.5,10.5 5.8,0 10.5,-4.7 10.5,-10.5 C 20.99,4.7 16.3,-0.01 10.5,-0.=
+01 Z m 0,19.75 c -5.11,0 -9.25,-4.15 -9.25,-9.25 0,-5.1 4.14,-9.26 9.25,-9.=
+26 5.11,0 9.25,4.15 9.25,9.25 0,5.13 -4.14,9.26 -9.25,9.26 z\" style=3D\"op=
+acity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpath d=3D\"M 14.74=
+,6.25 C 12.9,4.41 9.98,4.35 8.23,6.1 5.07,9.27 6.09,14.91 6.09,14.91 c 0,0 =
+5.64,1.02 8.81,-2.14 C 16.64,11 16.59,8.09 14.74,6.25 Z m -2.27,4.09 -0.91,=
+1.87 -0.9,-1.87 -1.86,-0.91 1.86,-0.9 0.9,-1.87 0.91,1.87 1.86,0.9 z\" styl=
+e=3D\"opacity:0.35;enable-background:new\" class=3D\"st1\"/%3E%3Cpolygon po=
+ints=3D\"11.56,12.21 10.66,10.34 8.8,9.43 10.66,8.53 11.56,6.66 12.47,8.53 =
+14.33,9.43 12.47,10.34 \" style=3D\"opacity:0.9;fill:%23ffffff;enable-backg=
+round:new\" class=3D\"st0\"/%3E%3C/g%3E%3C/svg%3E"); }
+
+.js-plotly-plot .plotly .mapboxgl-attrib-empty { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib .mapbox-improve-map { font-we=
+ight: bold; margin-left: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a:hover { color: inherit; tex=
+t-decoration: underline; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib a { color: rgba(0, 0, 0, 0.75=
+); text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib { color: rgba(0, 0, 0, 0.75);=
+ text-decoration: none; font-size: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right .mapboxgl-ctrl { margin=
+: 0px 10px 10px 0px; float: right; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left .mapboxgl-ctrl { margin:=
+ 0px 0px 10px 10px; float: left; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left > .mapboxgl-ctrl-attrib.=
+mapboxgl-compact::after { bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right > .mapboxgl-ctrl-attrib=
+.mapboxgl-compact::after { bottom: 0px; right: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact { min-height=
+: 20px; padding: 0px; margin: 10px; position: relative; background-color: r=
+gb(255, 255, 255); border-radius: 3px 12px 12px 3px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact::after { con=
+tent: ""; cursor: pointer; position: absolute; background-image: url("data:=
+image/svg+xml;charset=3Dutf-8,%3Csvg viewBox=3D\"0 0 20 20\" xmlns=3D\"http=
+://www.w3.org/2000/svg\"%3E %3Cpath fill=3D\"%23333333\" fill-rule=3D\"even=
+odd\" d=3D\"M4,10a6,6 0 1,0 12,0a6,6 0 1,0 -12,0 M9,7a1,1 0 1,0 2,0a1,1 0 1=
+,0 -2,0 M9,10a1,1 0 1,1 2,0l0,3a1,1 0 1,1 -2,0\"/%3E %3C/svg%3E"); backgrou=
+nd-color: rgba(255, 255, 255, 0.5); width: 24px; height: 24px; box-sizing: =
+border-box; border-radius: 12px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover { padd=
+ing: 2px 24px 2px 4px; visibility: visible; margin-top: 6px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact:hover .mapbo=
+xgl-ctrl-attrib-inner { display: block; margin-top: 2px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-attrib.mapboxgl-compact .mapboxgl-ct=
+rl-attrib-inner { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl { clear: both; pointer-events: auto;=
+ transform: translate(0px, 0px); }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-right { position: absolute; p=
+ointer-events: none; z-index: 2; right: 0px; bottom: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-ctrl-bottom-left { position: absolute; po=
+inter-events: none; z-index: 2; bottom: 0px; left: 0px; }
+
+.js-plotly-plot .plotly .mapboxgl-canary { background-color: salmon; }
+
+.js-plotly-plot .plotly .mapboxgl-missing-css { display: none; }
+
+.js-plotly-plot .plotly .mapboxgl-map { overflow: hidden; position: relativ=
+e; }
+
+.plotly-notifier .notifier-close:hover { color: rgb(68, 68, 68); text-decor=
+ation: none; cursor: pointer; }
+
+.plotly-notifier .notifier-close { color: rgb(255, 255, 255); opacity: 0.8;=
+ float: right; padding: 0px 5px; background: none; border: none; font-size:=
+ 20px; font-weight: bold; line-height: 20px; }
+
+.plotly-notifier .notifier-note { min-width: 180px; max-width: 250px; borde=
+r: 1px solid rgb(255, 255, 255); z-index: 3000; margin: 0px; background-col=
+or: rgba(140, 151, 175, 0.9); color: rgb(255, 255, 255); padding: 10px; ove=
+rflow-wrap: break-word; hyphens: auto; }
+
+.plotly-notifier p { margin: 0px; }
+
+.plotly-notifier { font-family: "Open Sans", verdana, arial, sans-serif; po=
+sition: fixed; top: 50px; right: 20px; z-index: 10000; font-size: 10pt; max=
+-width: 180px; }
+
+.js-plotly-plot .plotly .select-outline-2 { stroke: black; stroke-dasharray=
+: 2px, 2px; }
+
+.js-plotly-plot .plotly .select-outline-1 { stroke: white; }
+
+.js-plotly-plot .plotly .select-outline { fill: none; stroke-width: 1; shap=
+e-rendering: crispedges; }
+
+.js-plotly-plot .plotly .vertical [data-title]::before { border-width: 6px;=
+ border-style: solid; border-color: transparent transparent transparent rgb=
+(105, 115, 138); border-image: initial; margin-top: 8px; margin-right: -30p=
+x; }
+
+.js-plotly-plot .plotly .vertical [data-title]::before, .js-plotly-plot .pl=
+otly .vertical [data-title]::after { top: 0%; right: 200%; }
+
+.js-plotly-plot .plotly [data-title]::after { content: attr(data-title); ba=
+ckground: rgb(105, 115, 138); color: white; padding: 8px 10px; font-size: 1=
+2px; line-height: 12px; white-space: nowrap; margin-right: -18px; border-ra=
+dius: 2px; }
+
+.js-plotly-plot .plotly [data-title]::before { content: ""; position: absol=
+ute; background: transparent; border-width: 6px; border-style: solid; borde=
+r-color: transparent transparent rgb(105, 115, 138); border-image: initial;=
+ z-index: 1002; margin-top: -12px; margin-right: -6px; }
+
+.js-plotly-plot .plotly [data-title]:hover::before, .js-plotly-plot .plotly=
+ [data-title]:hover::after { display: block; opacity: 1; }
+
+.js-plotly-plot .plotly [data-title]::before, .js-plotly-plot .plotly [data=
+-title]::after { position: absolute; transform: translate3d(0px, 0px, 0px);=
+ display: none; opacity: 0; z-index: 1001; pointer-events: none; top: 110%;=
+ right: 50%; }
+
+.js-plotly-plot .plotly .modebar.vertical .modebar-group .modebar-btn { dis=
+play: block; text-align: center; }
+
+.js-plotly-plot .plotly .modebar.vertical .modebar-group { display: block; =
+float: none; padding-left: 0px; padding-bottom: 8px; }
+
+.js-plotly-plot .plotly .modebar.vertical svg { top: -1px; }
+
+.js-plotly-plot .plotly .modebar.vertical { display: flex; flex-flow: colum=
+n wrap; align-content: flex-end; max-height: 100%; }
+
+.js-plotly-plot .plotly .modebar-btn svg { position: relative; top: 2px; }
+
+.js-plotly-plot .plotly .modebar-btn { position: relative; font-size: 16px;=
+ padding: 3px 4px; height: 22px; cursor: pointer; line-height: normal; box-=
+sizing: border-box; }
+
+.js-plotly-plot .plotly .modebar-group { float: left; display: inline-block=
+; box-sizing: border-box; padding-left: 8px; position: relative; vertical-a=
+lign: middle; white-space: nowrap; }
+
+.js-plotly-plot .plotly:hover .modebar--hover .modebar-group { opacity: 1; =
+}
+
+.js-plotly-plot .plotly .modebar--hover > :not(.watermark) { opacity: 0; tr=
+ansition: opacity 0.3s ease 0s; }
+
+.js-plotly-plot .plotly .ease-bg { transition: background-color 0.3s ease 0=
+s; }
+
+.js-plotly-plot .plotly .modebar { position: absolute; top: 2px; right: 2px=
+; }
+
+.js-plotly-plot .plotly .cursor-grab { cursor: grab; }
+
+.js-plotly-plot .plotly .cursor-ne-resize { cursor: ne-resize; }
+
+.js-plotly-plot .plotly .cursor-n-resize { cursor: n-resize; }
+
+.js-plotly-plot .plotly .cursor-nw-resize { cursor: nw-resize; }
+
+.js-plotly-plot .plotly .cursor-e-resize { cursor: e-resize; }
+
+.js-plotly-plot .plotly .cursor-w-resize { cursor: w-resize; }
+
+.js-plotly-plot .plotly .cursor-se-resize { cursor: se-resize; }
+
+.js-plotly-plot .plotly .cursor-s-resize { cursor: s-resize; }
+
+.js-plotly-plot .plotly .cursor-sw-resize { cursor: sw-resize; }
+
+.js-plotly-plot .plotly .cursor-ew-resize { cursor: ew-resize; }
+
+.js-plotly-plot .plotly .cursor-ns-resize { cursor: ns-resize; }
+
+.js-plotly-plot .plotly .cursor-row-resize { cursor: row-resize; }
+
+.js-plotly-plot .plotly .cursor-col-resize { cursor: col-resize; }
+
+.js-plotly-plot .plotly .cursor-move { cursor: move; }
+
+.js-plotly-plot .plotly .cursor-crosshair { cursor: crosshair; }
+
+.js-plotly-plot .plotly .cursor-pointer { cursor: pointer; }
+
+.js-plotly-plot .plotly .cursor-default { cursor: default; }
+
+.js-plotly-plot .plotly .main-svg .draglayer { pointer-events: all; }
+
+.js-plotly-plot .plotly .main-svg { position: absolute; top: 0px; left: 0px=
+; pointer-events: none; }
+
+.js-plotly-plot .plotly svg a:hover { fill: rgb(60, 109, 197); }
+
+.js-plotly-plot .plotly svg a { fill: rgb(68, 122, 219); }
+
+.js-plotly-plot .plotly svg { overflow: hidden; }
+
+.js-plotly-plot .plotly .user-select-none { user-select: none; }
+
+.js-plotly-plot .plotly .crisp { shape-rendering: crispedges; }
+
+.js-plotly-plot .plotly a:hover { text-decoration: none; }
+
+.js-plotly-plot .plotly a { text-decoration: none; }
+
+.js-plotly-plot .plotly input:focus, .js-plotly-plot .plotly button:focus {=
+ outline: none; }
+
+.js-plotly-plot .plotly input, .js-plotly-plot .plotly button { font-family=
+: "Open Sans", verdana, arial, sans-serif; }
+
+.js-plotly-plot .plotly, .js-plotly-plot .plotly div { direction: ltr; font=
+-family: "Open Sans", verdana, arial, sans-serif; margin: 0px; padding: 0px=
+; }
+------MultipartBoundary--XltSfeKDha3yxaqWot69ZKZO5bicY0EA8VQYklsI0X----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-19ba22aa-c3ed-4339-b904-7ee0e3481e66@mhtml.blink
+
+@charset "utf-8";
+
+#modebar-6c787e .modebar-btn.active .icon path { fill: rgba(68, 68, 68, 0.7=
+); }
+
+#modebar-6c787e .modebar-btn:hover .icon path { fill: rgba(68, 68, 68, 0.7)=
+; }
+
+#modebar-6c787e .modebar-btn .icon path { fill: rgba(68, 68, 68, 0.3); }
+
+#modebar-6c787e .modebar-group { background-color: rgba(255, 255, 255, 0.5)=
+; }
+------MultipartBoundary--XltSfeKDha3yxaqWot69ZKZO5bicY0EA8VQYklsI0X----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-9f8caacf-ef25-4e91-8fdf-83b07de47349@mhtml.blink
+
+@charset "utf-8";
+
+#modebar-69a001 .modebar-btn.active .icon path { fill: rgba(68, 68, 68, 0.7=
+); }
+
+#modebar-69a001 .modebar-btn:hover .icon path { fill: rgba(68, 68, 68, 0.7)=
+; }
+
+#modebar-69a001 .modebar-btn .icon path { fill: rgba(68, 68, 68, 0.3); }
+
+#modebar-69a001 .modebar-group { background-color: rgba(255, 255, 255, 0.5)=
+; }
+------MultipartBoundary--XltSfeKDha3yxaqWot69ZKZO5bicY0EA8VQYklsI0X----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://tracker-vaults.makerdao.network/static/tf_apps.css
+
+@charset "utf-8";
+
+body { font-family: sans-serif; margin: 5px; color: rgb(68, 68, 68); }
+
+a:link, a:visited { color: rgb(85, 85, 85); }
+
+h3 a:link, h3 a:visited { color: rgb(26, 171, 155); }
+
+a:hover { color: rgb(26, 171, 155); }
+
+a.area_link { text-decoration: none; }
+
+a.area_link:hover { text-decoration: none; color: rgb(85, 85, 85); }
+
+h1, h2 { color: rgb(26, 171, 155); }
+
+h2 { margin-bottom: 5px; }
+
+h3 { color: rgb(26, 171, 155); font-size: 18px; margin-bottom: 10px; }
+
+h4 { font-size: 16px; margin-bottom: 10px; }
+
+span.left_field { width: 200px; display: inline-block; }
+
+span.expose { font-weight: normal; color: rgb(26, 171, 155); }
+
+span.expose a { color: rgb(26, 171, 155); }
+
+.kpi { font-size: 20px; font-family: sans-serif; contain: content; display:=
+ flex; justify-content: space-between; }
+
+.kpi .expose { font-size: 28px; }
+
+.kpi_label { font-size: 13px; height: 15px; }
+
+.part_line { height: 4px; background-color: rgb(26, 171, 155); position: ab=
+solute; display: block; left: 0px; bottom: 0px; }
+
+.state { position: absolute; margin-bottom: 10px; margin-right: 15px; color=
+: rgb(26, 171, 155); font-size: 15px !important; }
+
+.shadow { border: 1px solid rgb(204, 204, 204); padding: 10px; margin: 5px;=
+ box-shadow: rgb(238, 238, 238) 5px 5px; background-color: rgb(252, 252, 25=
+2); position: relative; }
+
+.dashboard { display: grid; grid-template-rows: 130px calc(100vh - 185px) 4=
+5px; max-height: 100%; max-width: 1800px; margin: 0px auto; }
+
+.parameters_dashboard { display: grid; grid-template-rows: 130px calc(100vh=
+ - 185px) 45px; max-height: 100%; max-width: 2300px; margin: 0px auto; }
+
+.left-box, .right-box, .center-box { display: block; overflow: auto; paddin=
+g-bottom: 20px; }
+
+.header { display: grid; grid-template-columns: 180px auto; align-content: =
+start; }
+
+.split-contents { display: grid; grid-template-columns: 38% 62%; }
+
+.contents { display: grid; }
+
+.left_panel, .right_panel { display: grid; font-family: monospace; overflow=
+-y: auto; align-content: start; }
+
+.footer { display: grid; font-family: monospace; font-size: 10px; text-alig=
+n: center; }
+
+.right-top { font-size: 10px; text-align: right; position: absolute; right:=
+ 0px; top: 0px; padding: 5px; }
+
+.right-bottom { font-size: 10px; text-align: right; color: rgb(85, 85, 85);=
+ right: 0px; bottom: 0px; }
+
+.history { position: absolute; right: 173px; bottom: 0px; }
+
+.logo { height: 100px; }
+
+.main_title { font-size: 40px; font-weight: bold; margin-top: 3px; }
+
+.refresh { font-size: 13px; margin-left: 2px; padding-top: 3px; }
+
+.modal { display: none; position: fixed; z-index: 1; left: 0px; top: 0px; w=
+idth: 100%; height: 100%; overflow: auto; background-color: rgba(0, 0, 0, 0=
+.4); }
+
+.modal-content { font-family: monospace; background-color: rgb(254, 254, 25=
+4); margin: 15% auto; padding: 20px; border: 1px solid rgb(136, 136, 136); =
+width: 50%; }
+
+.close { color: rgb(170, 170, 170); float: right; font-size: 28px; font-wei=
+ght: bold; }
+
+.close:hover, .close:focus { color: black; text-decoration: none; cursor: p=
+ointer; }
+
+.row_expose td { background-color: rgba(26, 171, 155, 0.314) !important; }
+
+.simple-table td, th { white-space: nowrap; overflow: hidden; text-overflow=
+: ellipsis; border: 1px solid rgb(170, 170, 170); text-align: center; paddi=
+ng: 5px; font-size: 12px; }
+
+.simple-table th { background-color: rgb(221, 221, 221); }
+
+.simple-table { table-layout: fixed; width: 100%; white-space: nowrap; bord=
+er-collapse: collapse; }
+
+.history-table td { text-align: left; }
+
+.simple-table tr:nth-child(2n+1) td { background-color: rgb(240, 240, 240);=
+ }
+
+input { border-radius: 0px; border: 1px solid rgb(170, 170, 170); }
+
+.dt-buttons { padding: 0px 0px 10px; float: left; }
+
+#sorted-table_length { padding-right: 10px; }
+
+.buttons-csv { background: linear-gradient(rgb(255, 255, 255) 0%, rgb(220, =
+220, 220) 100%); border: 1px solid rgb(170, 170, 170); padding: 5px 15px; }
+
+.buttons-html5 { cursor: pointer; }
+
+.loader { border-width: 16px; border-style: solid; border-color: rgb(26, 17=
+1, 155) rgb(243, 243, 243) rgb(243, 243, 243); border-image: initial; borde=
+r-radius: 50%; width: 60px; height: 60px; animation: 2s linear 0s infinite =
+normal none running spin; }
+
+@-webkit-keyframes spin {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes spin {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.inner_left { display: inline-block; }
+
+.inner_right { display: inline-flex; align-items: flex-end; }
+
+.token_flow_branding { padding-right: 20px; padding-top: 20px; text-align: =
+end; }
+
+.simple-button { border: 0px; color: rgb(51, 51, 51); background-color: whi=
+te; text-align: center; text-decoration: none; display: inline-block; trans=
+ition-duration: 0.4s; cursor: pointer; border-radius: 0px; }
+
+#search { padding: 5px; }
+
+.error { font-family: monospace; }
+
+.modebar { display: none !important; }
+
+#data_html input { border-radius: 0px; }
+
+#table_container input, #table_container select { border-radius: 0px; }
+
+#sorted-table_paginate .current { border-radius: 0px; }
+
+.js-plotly-plot .plotly, .js-plotly-plot .plotly div { margin: 0px auto; }
+
+.title-form-container { display: flex; align-items: center; justify-content=
+: space-between; }
+
+.powered-by { text-align: right; margin-bottom: 8px; margin-right: 10px; }
+
+.right_panel .dataTables_wrapper { min-width: 880px; }
+
+@media screen and (max-width: 1024px) {
+  .dashboard { max-width: 768px; grid-template-rows: auto auto 45px; }
+  .split-contents { grid-template-columns: 100%; }
+  .header { grid-template-columns: 130px auto; }
+  .logo-container { display: flex; align-items: center; }
+  .logo { width: 100%; height: auto; }
+  .left-box { max-height: 500px; margin-top: 0px !important; }
+  .right_panel .dataTables_wrapper { min-width: 600px; }
+}
+
+@media screen and (max-width: 768px) {
+  .dashboard { grid-template-rows: auto auto auto; max-width: 414px; }
+  .header { grid-template-columns: 100%; }
+  .logo-container { max-width: 40px; margin-bottom: 15px; }
+  .title-form-container { flex-direction: column; align-items: flex-start; =
+}
+  .title-container { margin-bottom: 20px; }
+  .main_title { font-size: 24px; padding-top: 0px; }
+  .refresh { font-size: 11px; padding-top: 3px; }
+  #search { width: 100px; }
+  .header form { margin-bottom: 10px; }
+  .powered-by { text-align: right; }
+  .kpi .expose { font-size: 22px; }
+  .kpi .inner-left { font-size: 18px; }
+  .kpi_label { height: auto; margin-bottom: 2px; }
+  .kpi.shadow { flex-direction: column; overflow: hidden; }
+  .kpi.shadow h3 { overflow: hidden; text-overflow: ellipsis; }
+  .kpi.shadow .right-bottom { text-align: left; margin-top: 10px; }
+  #sorted-table_length, #sorted-table_filter { text-align: left; float: lef=
+t; }
+  .dt-buttons { float: none; }
+  #executives-table_filter { float: left; }
+}
+
+.center { margin: auto; border: 1px solid rgb(115, 173, 33); padding: 3px; }
+------MultipartBoundary--XltSfeKDha3yxaqWot69ZKZO5bicY0EA8VQYklsI0X----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://tracker-vaults.makerdao.network/static/dataTables.min.css
+
+@charset "utf-8";
+
+table.dataTable { width: 100%; margin: 0px auto; clear: both; border-spacin=
+g: 0px; }
+
+table.dataTable thead th, table.dataTable tfoot th { font-weight: bold; }
+
+table.dataTable thead th, table.dataTable thead td { padding: 5px 15px; }
+
+table.dataTable thead th:active, table.dataTable thead td:active { outline:=
+ none; }
+
+table.dataTable tfoot th, table.dataTable tfoot td { padding: 10px 15px 6px=
+; border-top: 1px solid rgb(17, 17, 17); }
+
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.d=
+ataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, =
+table.dataTable thead .sorting_desc_disabled { cursor: pointer; background-=
+repeat: no-repeat; background-position: right center; }
+
+table.dataTable thead .sorting { background-image: url("images/sort_both.pn=
+g"); }
+
+table.dataTable thead .sorting_asc { background-image: url("images/sort_asc=
+.png"); }
+
+table.dataTable thead .sorting_desc { background-image: url("images/sort_de=
+sc.png"); }
+
+table.dataTable thead .sorting_asc_disabled { background-image: url("images=
+/sort_asc_disabled.png"); }
+
+table.dataTable thead .sorting_desc_disabled { background-image: url("image=
+s/sort_desc_disabled.png"); }
+
+table.dataTable tbody tr { background-color: rgb(255, 255, 255); }
+
+table.dataTable tbody tr.selected { background-color: rgb(176, 190, 217); }
+
+table.dataTable tbody th, table.dataTable tbody td { padding: 5px; }
+
+table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, t=
+able.dataTable.display tbody th, table.dataTable.display tbody td { border-=
+top: 1px solid rgb(221, 221, 221); }
+
+table.dataTable.row-border tbody tr:first-child th, table.dataTable.row-bor=
+der tbody tr:first-child td, table.dataTable.display tbody tr:first-child t=
+h, table.dataTable.display tbody tr:first-child td { border-top: none; }
+
+table.dataTable.cell-border tbody th, table.dataTable.cell-border tbody td =
+{ border-top: 1px solid rgb(221, 221, 221); border-right: 1px solid rgb(221=
+, 221, 221); }
+
+table.dataTable.cell-border tbody tr th:first-child, table.dataTable.cell-b=
+order tbody tr td:first-child { border-left: 1px solid rgb(221, 221, 221); =
+}
+
+table.dataTable.cell-border tbody tr:first-child th, table.dataTable.cell-b=
+order tbody tr:first-child td { border-top: none; }
+
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {=
+ background-color: rgb(249, 249, 249); }
+
+table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody=
+ tr.odd.selected { background-color: rgb(172, 186, 212); }
+
+table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hove=
+r { background-color: rgb(246, 246, 246); }
+
+table.dataTable.hover tbody tr:hover.selected, table.dataTable.display tbod=
+y tr:hover.selected { background-color: rgb(170, 183, 209); }
+
+table.dataTable.order-column tbody tr > .sorting_1, table.dataTable.order-c=
+olumn tbody tr > .sorting_2, table.dataTable.order-column tbody tr > .sorti=
+ng_3, table.dataTable.display tbody tr > .sorting_1, table.dataTable.displa=
+y tbody tr > .sorting_2, table.dataTable.display tbody tr > .sorting_3 { ba=
+ckground-color: rgb(250, 250, 250); }
+
+table.dataTable.order-column tbody tr.selected > .sorting_1, table.dataTabl=
+e.order-column tbody tr.selected > .sorting_2, table.dataTable.order-column=
+ tbody tr.selected > .sorting_3, table.dataTable.display tbody tr.selected =
+> .sorting_1, table.dataTable.display tbody tr.selected > .sorting_2, table=
+.dataTable.display tbody tr.selected > .sorting_3 { background-color: rgb(1=
+72, 186, 213); }
+
+table.dataTable.display tbody tr.odd > .sorting_1, table.dataTable.order-co=
+lumn.stripe tbody tr.odd > .sorting_1 { background-color: rgb(241, 241, 241=
+); }
+
+table.dataTable.display tbody tr.odd > .sorting_2, table.dataTable.order-co=
+lumn.stripe tbody tr.odd > .sorting_2 { background-color: rgb(243, 243, 243=
+); }
+
+table.dataTable.display tbody tr.odd > .sorting_3, table.dataTable.order-co=
+lumn.stripe tbody tr.odd > .sorting_3 { background-color: whitesmoke; }
+
+table.dataTable.display tbody tr.odd.selected > .sorting_1, table.dataTable=
+.order-column.stripe tbody tr.odd.selected > .sorting_1 { background-color:=
+ rgb(166, 180, 205); }
+
+table.dataTable.display tbody tr.odd.selected > .sorting_2, table.dataTable=
+.order-column.stripe tbody tr.odd.selected > .sorting_2 { background-color:=
+ rgb(168, 181, 207); }
+
+table.dataTable.display tbody tr.odd.selected > .sorting_3, table.dataTable=
+.order-column.stripe tbody tr.odd.selected > .sorting_3 { background-color:=
+ rgb(169, 183, 209); }
+
+table.dataTable.display tbody tr.even > .sorting_1, table.dataTable.order-c=
+olumn.stripe tbody tr.even > .sorting_1 { background-color: rgb(250, 250, 2=
+50); }
+
+table.dataTable.display tbody tr.even > .sorting_2, table.dataTable.order-c=
+olumn.stripe tbody tr.even > .sorting_2 { background-color: rgb(252, 252, 2=
+52); }
+
+table.dataTable.display tbody tr.even > .sorting_3, table.dataTable.order-c=
+olumn.stripe tbody tr.even > .sorting_3 { background-color: rgb(254, 254, 2=
+54); }
+
+table.dataTable.display tbody tr.even.selected > .sorting_1, table.dataTabl=
+e.order-column.stripe tbody tr.even.selected > .sorting_1 { background-colo=
+r: rgb(172, 186, 213); }
+
+table.dataTable.display tbody tr.even.selected > .sorting_2, table.dataTabl=
+e.order-column.stripe tbody tr.even.selected > .sorting_2 { background-colo=
+r: rgb(174, 188, 214); }
+
+table.dataTable.display tbody tr.even.selected > .sorting_3, table.dataTabl=
+e.order-column.stripe tbody tr.even.selected > .sorting_3 { background-colo=
+r: rgb(175, 189, 216); }
+
+table.dataTable.display tbody tr:hover > .sorting_1, table.dataTable.order-=
+column.hover tbody tr:hover > .sorting_1 { background-color: rgb(234, 234, =
+234); }
+
+table.dataTable.display tbody tr:hover > .sorting_2, table.dataTable.order-=
+column.hover tbody tr:hover > .sorting_2 { background-color: rgb(236, 236, =
+236); }
+
+table.dataTable.display tbody tr:hover > .sorting_3, table.dataTable.order-=
+column.hover tbody tr:hover > .sorting_3 { background-color: rgb(239, 239, =
+239); }
+
+table.dataTable.display tbody tr:hover.selected > .sorting_1, table.dataTab=
+le.order-column.hover tbody tr:hover.selected > .sorting_1 { background-col=
+or: rgb(162, 174, 199); }
+
+table.dataTable.display tbody tr:hover.selected > .sorting_2, table.dataTab=
+le.order-column.hover tbody tr:hover.selected > .sorting_2 { background-col=
+or: rgb(163, 176, 201); }
+
+table.dataTable.display tbody tr:hover.selected > .sorting_3, table.dataTab=
+le.order-column.hover tbody tr:hover.selected > .sorting_3 { background-col=
+or: rgb(165, 178, 203); }
+
+table.dataTable.no-footer { border-bottom: 1px solid rgb(17, 17, 17); }
+
+table.dataTable.nowrap th, table.dataTable.nowrap td { white-space: nowrap;=
+ }
+
+table.dataTable.compact thead th, table.dataTable.compact thead td { paddin=
+g: 4px 17px; }
+
+table.dataTable.compact tfoot th, table.dataTable.compact tfoot td { paddin=
+g: 4px; }
+
+table.dataTable.compact tbody th, table.dataTable.compact tbody td { paddin=
+g: 4px; }
+
+table.dataTable th.dt-left, table.dataTable td.dt-left { text-align: left; =
+}
+
+table.dataTable th.dt-center, table.dataTable td.dt-center, table.dataTable=
+ td.dataTables_empty { text-align: center; }
+
+table.dataTable th.dt-right, table.dataTable td.dt-right { text-align: righ=
+t; }
+
+table.dataTable th.dt-justify, table.dataTable td.dt-justify { text-align: =
+justify; }
+
+table.dataTable th.dt-nowrap, table.dataTable td.dt-nowrap { white-space: n=
+owrap; }
+
+table.dataTable thead th.dt-head-left, table.dataTable thead td.dt-head-lef=
+t, table.dataTable tfoot th.dt-head-left, table.dataTable tfoot td.dt-head-=
+left { text-align: left; }
+
+table.dataTable thead th.dt-head-center, table.dataTable thead td.dt-head-c=
+enter, table.dataTable tfoot th.dt-head-center, table.dataTable tfoot td.dt=
+-head-center { text-align: center; }
+
+table.dataTable thead th.dt-head-right, table.dataTable thead td.dt-head-ri=
+ght, table.dataTable tfoot th.dt-head-right, table.dataTable tfoot td.dt-he=
+ad-right { text-align: right; }
+
+table.dataTable thead th.dt-head-justify, table.dataTable thead td.dt-head-=
+justify, table.dataTable tfoot th.dt-head-justify, table.dataTable tfoot td=
+.dt-head-justify { text-align: justify; }
+
+table.dataTable thead th.dt-head-nowrap, table.dataTable thead td.dt-head-n=
+owrap, table.dataTable tfoot th.dt-head-nowrap, table.dataTable tfoot td.dt=
+-head-nowrap { white-space: nowrap; }
+
+table.dataTable tbody th.dt-body-left, table.dataTable tbody td.dt-body-lef=
+t { text-align: left; }
+
+table.dataTable tbody th.dt-body-center, table.dataTable tbody td.dt-body-c=
+enter { text-align: center; }
+
+table.dataTable tbody th.dt-body-right, table.dataTable tbody td.dt-body-ri=
+ght { text-align: right; }
+
+table.dataTable tbody th.dt-body-justify, table.dataTable tbody td.dt-body-=
+justify { text-align: justify; }
+
+table.dataTable tbody th.dt-body-nowrap, table.dataTable tbody td.dt-body-n=
+owrap { white-space: nowrap; }
+
+table.dataTable, table.dataTable th, table.dataTable td { box-sizing: conte=
+nt-box; }
+
+.dataTables_wrapper { position: relative; clear: both; zoom: 1; }
+
+.dataTables_wrapper .dataTables_length { float: left; margin-bottom: 10px; =
+}
+
+.dataTables_wrapper .dataTables_length select { border: 1px solid rgb(170, =
+170, 170); border-radius: 3px; background-color: transparent; padding: 4px;=
+ }
+
+.dataTables_wrapper .dataTables_filter { float: right; text-align: right; m=
+argin-bottom: 10px; }
+
+.dataTables_wrapper .dataTables_filter input { border: 1px solid rgb(170, 1=
+70, 170); border-radius: 3px; padding: 5px; background-color: transparent; =
+margin-left: 3px; }
+
+.dataTables_wrapper .dataTables_info { clear: both; float: left; padding-to=
+p: 15px; }
+
+.dataTables_wrapper .dataTables_paginate { float: right; text-align: right;=
+ padding-top: 10px; }
+
+.dataTables_wrapper .dataTables_paginate .paginate_button { box-sizing: bor=
+der-box; display: inline-block; min-width: 1.5em; padding: 0.5em 1em; margi=
+n-left: 2px; text-align: center; cursor: pointer; border: 1px solid transpa=
+rent; border-radius: 2px; text-decoration: none !important; color: rgb(51, =
+51, 51) !important; }
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTab=
+les_wrapper .dataTables_paginate .paginate_button.current:hover { border: 1=
+px solid rgb(151, 151, 151); background: linear-gradient(rgb(255, 255, 255)=
+ 0%, rgb(220, 220, 220) 100%); color: rgb(51, 51, 51) !important; }
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTa=
+bles_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTab=
+les_wrapper .dataTables_paginate .paginate_button.disabled:active { cursor:=
+ default; border: 1px solid transparent; background: transparent; box-shado=
+w: none; color: rgb(102, 102, 102) !important; }
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover { border: 1=
+px solid rgb(17, 17, 17); background: linear-gradient(rgb(88, 88, 88) 0%, r=
+gb(17, 17, 17) 100%); color: white !important; }
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:active { outline:=
+ none; background: linear-gradient(rgb(43, 43, 43) 0%, rgb(12, 12, 12) 100%=
+); box-shadow: rgb(17, 17, 17) 0px 0px 3px inset; }
+
+.dataTables_wrapper .dataTables_paginate .ellipsis { padding: 0px 1em; }
+
+.dataTables_wrapper .dataTables_processing { position: absolute; top: 50%; =
+left: 50%; width: 100%; height: 40px; margin-left: -50%; margin-top: -25px;=
+ padding-top: 20px; text-align: center; font-size: 1.2em; background: linea=
+r-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 25=
+%, rgba(255, 255, 255, 0.9) 75%, rgba(255, 255, 255, 0) 100%); }
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_fil=
+ter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_=
+processing, .dataTables_wrapper .dataTables_paginate { color: rgb(51, 51, 5=
+1); }
+
+.dataTables_wrapper .dataTables_scroll { clear: both; }
+
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody { }
+
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody > table > =
+thead > tr > th, .dataTables_wrapper .dataTables_scroll div.dataTables_scro=
+llBody > table > thead > tr > td, .dataTables_wrapper .dataTables_scroll di=
+v.dataTables_scrollBody > table > tbody > tr > th, .dataTables_wrapper .dat=
+aTables_scroll div.dataTables_scrollBody > table > tbody > tr > td { vertic=
+al-align: middle; }
+
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody > table > =
+thead > tr > th > div.dataTables_sizing, .dataTables_wrapper .dataTables_sc=
+roll div.dataTables_scrollBody > table > thead > tr > td > div.dataTables_s=
+izing, .dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody > t=
+able > tbody > tr > th > div.dataTables_sizing, .dataTables_wrapper .dataTa=
+bles_scroll div.dataTables_scrollBody > table > tbody > tr > td > div.dataT=
+ables_sizing { height: 0px; overflow: hidden; margin: 0px !important; paddi=
+ng: 0px !important; }
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody { border-bottom: 1px s=
+olid rgb(17, 17, 17); }
+
+.dataTables_wrapper.no-footer div.dataTables_scrollHead table.dataTable, .d=
+ataTables_wrapper.no-footer div.dataTables_scrollBody > table { border-bott=
+om: none; }
+
+.dataTables_wrapper::after { visibility: hidden; display: block; content: "=
+"; clear: both; height: 0px; }
+
+@media screen and (max-width: 767px) {
+  .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_pag=
+inate { float: none; text-align: center; }
+  .dataTables_wrapper .dataTables_paginate { margin-top: 0.5em; }
+}
+
+@media screen and (max-width: 640px) {
+  .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_f=
+ilter { float: none; text-align: center; }
+  .dataTables_wrapper .dataTables_filter { margin-top: 0.5em; }
+}
+------MultipartBoundary--XltSfeKDha3yxaqWot69ZKZO5bicY0EA8VQYklsI0X----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://tracker-vaults.makerdao.network/static/images/sort_both.png
+
+iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAQAAADYWf5HAAAAkElEQVQoz7XQMQ5AQBCF4dWQSJxC
+5wwax1Cq1e7BAdxD5SL+Tq/QCM1oNiJidwox0355mXnG/DrEtIQ6azioNZQxI0ykPhTQIwhCR+Bm
+BYtlK7kLJYwWCcJA9M4qdrZrd8pPjZWPtOqdRQy320YSV17OatFC4euts6z39GYMKRPCTKY9UnPQ
+6P+GtMRfGtPnBCiqhAeJPmkqAAAAAElFTkSuQmCC
+
+------MultipartBoundary--XltSfeKDha3yxaqWot69ZKZO5bicY0EA8VQYklsI0X----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://tracker-vaults.makerdao.network/static/images/sort_desc.png
+
+iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAZUlEQVQ4y2NgGAWjYBSggaqGu5FA
+/BOIv2PBIPFEUgxjB+IdQPwfC94HxLykus4GiD+hGfQOiB3J8SojEE9EM2wuSJzcsFMG4ttQgx4D
+sRalkZENxL+AuJQaMcsGxBOAmGvopk8AVz1sLZgg0bsAAAAASUVORK5CYII=
+
+------MultipartBoundary--XltSfeKDha3yxaqWot69ZKZO5bicY0EA8VQYklsI0X----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+
+@charset "utf-8";
+
+@font-face { font-family: FontAwesome; src: url("../fonts/fontawesome-webfo=
+nt.woff2?v=3D4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.wof=
+f?v=3D4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=3D4.7=
+.0") format("truetype"); font-weight: normal; font-style: normal; }
+
+.fa { display: inline-block; font-style: normal; font-variant: normal; font=
+-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; f=
+ont-variation-settings: normal; font-weight: normal; font-stretch: normal; =
+line-height: 1; font-family: FontAwesome; font-size: inherit; text-renderin=
+g: auto; -webkit-font-smoothing: antialiased; }
+
+.fa-lg { font-size: 1.33333em; line-height: 0.75em; vertical-align: -15%; }
+
+.fa-2x { font-size: 2em; }
+
+.fa-3x { font-size: 3em; }
+
+.fa-4x { font-size: 4em; }
+
+.fa-5x { font-size: 5em; }
+
+.fa-fw { width: 1.28571em; text-align: center; }
+
+.fa-ul { padding-left: 0px; margin-left: 2.14286em; list-style-type: none; =
+}
+
+.fa-ul > li { position: relative; }
+
+.fa-li { position: absolute; left: -2.14286em; width: 2.14286em; top: 0.142=
+857em; text-align: center; }
+
+.fa-li.fa-lg { left: -1.85714em; }
+
+.fa-border { padding: 0.2em 0.25em 0.15em; border: 0.08em solid rgb(238, 23=
+8, 238); border-radius: 0.1em; }
+
+.fa-pull-left { float: left; }
+
+.fa-pull-right { float: right; }
+
+.fa.fa-pull-left { margin-right: 0.3em; }
+
+.fa.fa-pull-right { margin-left: 0.3em; }
+
+.pull-right { float: right; }
+
+.pull-left { float: left; }
+
+.fa.pull-left { margin-right: 0.3em; }
+
+.fa.pull-right { margin-left: 0.3em; }
+
+.fa-spin { animation: 2s linear 0s infinite normal none running fa-spin; }
+
+.fa-pulse { animation: 1s steps(8) 0s infinite normal none running fa-spin;=
+ }
+
+@-webkit-keyframes fa-spin {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+
+@keyframes fa-spin {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+
+.fa-rotate-90 { transform: rotate(90deg); }
+
+.fa-rotate-180 { transform: rotate(180deg); }
+
+.fa-rotate-270 { transform: rotate(270deg); }
+
+.fa-flip-horizontal { transform: scale(-1, 1); }
+
+.fa-flip-vertical { transform: scale(1, -1); }
+
+:root .fa-rotate-90, :root .fa-rotate-180, :root .fa-rotate-270, :root .fa-=
+flip-horizontal, :root .fa-flip-vertical { filter: none; }
+
+.fa-stack { position: relative; display: inline-block; width: 2em; height: =
+2em; line-height: 2em; vertical-align: middle; }
+
+.fa-stack-1x, .fa-stack-2x { position: absolute; left: 0px; width: 100%; te=
+xt-align: center; }
+
+.fa-stack-1x { line-height: inherit; }
+
+.fa-stack-2x { font-size: 2em; }
+
+.fa-inverse { color: rgb(255, 255, 255); }
+
+.fa-glass::before { content: "=EF=80=80"; }
+
+.fa-music::before { content: "=EF=80=81"; }
+
+.fa-search::before { content: "=EF=80=82"; }
+
+.fa-envelope-o::before { content: "=EF=80=83"; }
+
+.fa-heart::before { content: "=EF=80=84"; }
+
+.fa-star::before { content: "=EF=80=85"; }
+
+.fa-star-o::before { content: "=EF=80=86"; }
+
+.fa-user::before { content: "=EF=80=87"; }
+
+.fa-film::before { content: "=EF=80=88"; }
+
+.fa-th-large::before { content: "=EF=80=89"; }
+
+.fa-th::before { content: "=EF=80=8A"; }
+
+.fa-th-list::before { content: "=EF=80=8B"; }
+
+.fa-check::before { content: "=EF=80=8C"; }
+
+.fa-remove::before, .fa-close::before, .fa-times::before { content: "=EF=80=
+=8D"; }
+
+.fa-search-plus::before { content: "=EF=80=8E"; }
+
+.fa-search-minus::before { content: "=EF=80=90"; }
+
+.fa-power-off::before { content: "=EF=80=91"; }
+
+.fa-signal::before { content: "=EF=80=92"; }
+
+.fa-gear::before, .fa-cog::before { content: "=EF=80=93"; }
+
+.fa-trash-o::before { content: "=EF=80=94"; }
+
+.fa-home::before { content: "=EF=80=95"; }
+
+.fa-file-o::before { content: "=EF=80=96"; }
+
+.fa-clock-o::before { content: "=EF=80=97"; }
+
+.fa-road::before { content: "=EF=80=98"; }
+
+.fa-download::before { content: "=EF=80=99"; }
+
+.fa-arrow-circle-o-down::before { content: "=EF=80=9A"; }
+
+.fa-arrow-circle-o-up::before { content: "=EF=80=9B"; }
+
+.fa-inbox::before { content: "=EF=80=9C"; }
+
+.fa-play-circle-o::before { content: "=EF=80=9D"; }
+
+.fa-rotate-right::before, .fa-repeat::before { content: "=EF=80=9E"; }
+
+.fa-refresh::before { content: "=EF=80=A1"; }
+
+.fa-list-alt::before { content: "=EF=80=A2"; }
+
+.fa-lock::before { content: "=EF=80=A3"; }
+
+.fa-flag::before { content: "=EF=80=A4"; }
+
+.fa-headphones::before { content: "=EF=80=A5"; }
+
+.fa-volume-off::before { content: "=EF=80=A6"; }
+
+.fa-volume-down::before { content: "=EF=80=A7"; }
+
+.fa-volume-up::before { content: "=EF=80=A8"; }
+
+.fa-qrcode::before { content: "=EF=80=A9"; }
+
+.fa-barcode::before { content: "=EF=80=AA"; }
+
+.fa-tag::before { content: "=EF=80=AB"; }
+
+.fa-tags::before { content: "=EF=80=AC"; }
+
+.fa-book::before { content: "=EF=80=AD"; }
+
+.fa-bookmark::before { content: "=EF=80=AE"; }
+
+.fa-print::before { content: "=EF=80=AF"; }
+
+.fa-camera::before { content: "=EF=80=B0"; }
+
+.fa-font::before { content: "=EF=80=B1"; }
+
+.fa-bold::before { content: "=EF=80=B2"; }
+
+.fa-italic::before { content: "=EF=80=B3"; }
+
+.fa-text-height::before { content: "=EF=80=B4"; }
+
+.fa-text-width::before { content: "=EF=80=B5"; }
+
+.fa-align-left::before { content: "=EF=80=B6"; }
+
+.fa-align-center::before { content: "=EF=80=B7"; }
+
+.fa-align-right::before { content: "=EF=80=B8"; }
+
+.fa-align-justify::before { content: "=EF=80=B9"; }
+
+.fa-list::before { content: "=EF=80=BA"; }
+
+.fa-dedent::before, .fa-outdent::before { content: "=EF=80=BB"; }
+
+.fa-indent::before { content: "=EF=80=BC"; }
+
+.fa-video-camera::before { content: "=EF=80=BD"; }
+
+.fa-photo::before, .fa-image::before, .fa-picture-o::before { content: "=EF=
+=80=BE"; }
+
+.fa-pencil::before { content: "=EF=81=80"; }
+
+.fa-map-marker::before { content: "=EF=81=81"; }
+
+.fa-adjust::before { content: "=EF=81=82"; }
+
+.fa-tint::before { content: "=EF=81=83"; }
+
+.fa-edit::before, .fa-pencil-square-o::before { content: "=EF=81=84"; }
+
+.fa-share-square-o::before { content: "=EF=81=85"; }
+
+.fa-check-square-o::before { content: "=EF=81=86"; }
+
+.fa-arrows::before { content: "=EF=81=87"; }
+
+.fa-step-backward::before { content: "=EF=81=88"; }
+
+.fa-fast-backward::before { content: "=EF=81=89"; }
+
+.fa-backward::before { content: "=EF=81=8A"; }
+
+.fa-play::before { content: "=EF=81=8B"; }
+
+.fa-pause::before { content: "=EF=81=8C"; }
+
+.fa-stop::before { content: "=EF=81=8D"; }
+
+.fa-forward::before { content: "=EF=81=8E"; }
+
+.fa-fast-forward::before { content: "=EF=81=90"; }
+
+.fa-step-forward::before { content: "=EF=81=91"; }
+
+.fa-eject::before { content: "=EF=81=92"; }
+
+.fa-chevron-left::before { content: "=EF=81=93"; }
+
+.fa-chevron-right::before { content: "=EF=81=94"; }
+
+.fa-plus-circle::before { content: "=EF=81=95"; }
+
+.fa-minus-circle::before { content: "=EF=81=96"; }
+
+.fa-times-circle::before { content: "=EF=81=97"; }
+
+.fa-check-circle::before { content: "=EF=81=98"; }
+
+.fa-question-circle::before { content: "=EF=81=99"; }
+
+.fa-info-circle::before { content: "=EF=81=9A"; }
+
+.fa-crosshairs::before { content: "=EF=81=9B"; }
+
+.fa-times-circle-o::before { content: "=EF=81=9C"; }
+
+.fa-check-circle-o::before { content: "=EF=81=9D"; }
+
+.fa-ban::before { content: "=EF=81=9E"; }
+
+.fa-arrow-left::before { content: "=EF=81=A0"; }
+
+.fa-arrow-right::before { content: "=EF=81=A1"; }
+
+.fa-arrow-up::before { content: "=EF=81=A2"; }
+
+.fa-arrow-down::before { content: "=EF=81=A3"; }
+
+.fa-mail-forward::before, .fa-share::before { content: "=EF=81=A4"; }
+
+.fa-expand::before { content: "=EF=81=A5"; }
+
+.fa-compress::before { content: "=EF=81=A6"; }
+
+.fa-plus::before { content: "=EF=81=A7"; }
+
+.fa-minus::before { content: "=EF=81=A8"; }
+
+.fa-asterisk::before { content: "=EF=81=A9"; }
+
+.fa-exclamation-circle::before { content: "=EF=81=AA"; }
+
+.fa-gift::before { content: "=EF=81=AB"; }
+
+.fa-leaf::before { content: "=EF=81=AC"; }
+
+.fa-fire::before { content: "=EF=81=AD"; }
+
+.fa-eye::before { content: "=EF=81=AE"; }
+
+.fa-eye-slash::before { content: "=EF=81=B0"; }
+
+.fa-warning::before, .fa-exclamation-triangle::before { content: "=EF=81=B1=
+"; }
+
+.fa-plane::before { content: "=EF=81=B2"; }
+
+.fa-calendar::before { content: "=EF=81=B3"; }
+
+.fa-random::before { content: "=EF=81=B4"; }
+
+.fa-comment::before { content: "=EF=81=B5"; }
+
+.fa-magnet::before { content: "=EF=81=B6"; }
+
+.fa-chevron-up::before { content: "=EF=81=B7"; }
+
+.fa-chevron-down::before { content: "=EF=81=B8"; }
+
+.fa-retweet::before { content: "=EF=81=B9"; }
+
+.fa-shopping-cart::before { content: "=EF=81=BA"; }
+
+.fa-folder::before { content: "=EF=81=BB"; }
+
+.fa-folder-open::before { content: "=EF=81=BC"; }
+
+.fa-arrows-v::before { content: "=EF=81=BD"; }
+
+.fa-arrows-h::before { content: "=EF=81=BE"; }
+
+.fa-bar-chart-o::before, .fa-bar-chart::before { content: "=EF=82=80"; }
+
+.fa-twitter-square::before { content: "=EF=82=81"; }
+
+.fa-facebook-square::before { content: "=EF=82=82"; }
+
+.fa-camera-retro::before { content: "=EF=82=83"; }
+
+.fa-key::before { content: "=EF=82=84"; }
+
+.fa-gears::before, .fa-cogs::before { content: "=EF=82=85"; }
+
+.fa-comments::before { content: "=EF=82=86"; }
+
+.fa-thumbs-o-up::before { content: "=EF=82=87"; }
+
+.fa-thumbs-o-down::before { content: "=EF=82=88"; }
+
+.fa-star-half::before { content: "=EF=82=89"; }
+
+.fa-heart-o::before { content: "=EF=82=8A"; }
+
+.fa-sign-out::before { content: "=EF=82=8B"; }
+
+.fa-linkedin-square::before { content: "=EF=82=8C"; }
+
+.fa-thumb-tack::before { content: "=EF=82=8D"; }
+
+.fa-external-link::before { content: "=EF=82=8E"; }
+
+.fa-sign-in::before { content: "=EF=82=90"; }
+
+.fa-trophy::before { content: "=EF=82=91"; }
+
+.fa-github-square::before { content: "=EF=82=92"; }
+
+.fa-upload::before { content: "=EF=82=93"; }
+
+.fa-lemon-o::before { content: "=EF=82=94"; }
+
+.fa-phone::before { content: "=EF=82=95"; }
+
+.fa-square-o::before { content: "=EF=82=96"; }
+
+.fa-bookmark-o::before { content: "=EF=82=97"; }
+
+.fa-phone-square::before { content: "=EF=82=98"; }
+
+.fa-twitter::before { content: "=EF=82=99"; }
+
+.fa-facebook-f::before, .fa-facebook::before { content: "=EF=82=9A"; }
+
+.fa-github::before { content: "=EF=82=9B"; }
+
+.fa-unlock::before { content: "=EF=82=9C"; }
+
+.fa-credit-card::before { content: "=EF=82=9D"; }
+
+.fa-feed::before, .fa-rss::before { content: "=EF=82=9E"; }
+
+.fa-hdd-o::before { content: "=EF=82=A0"; }
+
+.fa-bullhorn::before { content: "=EF=82=A1"; }
+
+.fa-bell::before { content: "=EF=83=B3"; }
+
+.fa-certificate::before { content: "=EF=82=A3"; }
+
+.fa-hand-o-right::before { content: "=EF=82=A4"; }
+
+.fa-hand-o-left::before { content: "=EF=82=A5"; }
+
+.fa-hand-o-up::before { content: "=EF=82=A6"; }
+
+.fa-hand-o-down::before { content: "=EF=82=A7"; }
+
+.fa-arrow-circle-left::before { content: "=EF=82=A8"; }
+
+.fa-arrow-circle-right::before { content: "=EF=82=A9"; }
+
+.fa-arrow-circle-up::before { content: "=EF=82=AA"; }
+
+.fa-arrow-circle-down::before { content: "=EF=82=AB"; }
+
+.fa-globe::before { content: "=EF=82=AC"; }
+
+.fa-wrench::before { content: "=EF=82=AD"; }
+
+.fa-tasks::before { content: "=EF=82=AE"; }
+
+.fa-filter::before { content: "=EF=82=B0"; }
+
+.fa-briefcase::before { content: "=EF=82=B1"; }
+
+.fa-arrows-alt::before { content: "=EF=82=B2"; }
+
+.fa-group::before, .fa-users::before { content: "=EF=83=80"; }
+
+.fa-chain::before, .fa-link::before { content: "=EF=83=81"; }
+
+.fa-cloud::before { content: "=EF=83=82"; }
+
+.fa-flask::before { content: "=EF=83=83"; }
+
+.fa-cut::before, .fa-scissors::before { content: "=EF=83=84"; }
+
+.fa-copy::before, .fa-files-o::before { content: "=EF=83=85"; }
+
+.fa-paperclip::before { content: "=EF=83=86"; }
+
+.fa-save::before, .fa-floppy-o::before { content: "=EF=83=87"; }
+
+.fa-square::before { content: "=EF=83=88"; }
+
+.fa-navicon::before, .fa-reorder::before, .fa-bars::before { content: "=EF=
+=83=89"; }
+
+.fa-list-ul::before { content: "=EF=83=8A"; }
+
+.fa-list-ol::before { content: "=EF=83=8B"; }
+
+.fa-strikethrough::before { content: "=EF=83=8C"; }
+
+.fa-underline::before { content: "=EF=83=8D"; }
+
+.fa-table::before { content: "=EF=83=8E"; }
+
+.fa-magic::before { content: "=EF=83=90"; }
+
+.fa-truck::before { content: "=EF=83=91"; }
+
+.fa-pinterest::before { content: "=EF=83=92"; }
+
+.fa-pinterest-square::before { content: "=EF=83=93"; }
+
+.fa-google-plus-square::before { content: "=EF=83=94"; }
+
+.fa-google-plus::before { content: "=EF=83=95"; }
+
+.fa-money::before { content: "=EF=83=96"; }
+
+.fa-caret-down::before { content: "=EF=83=97"; }
+
+.fa-caret-up::before { content: "=EF=83=98"; }
+
+.fa-caret-left::before { content: "=EF=83=99"; }
+
+.fa-caret-right::before { content: "=EF=83=9A"; }
+
+.fa-columns::before { content: "=EF=83=9B"; }
+
+.fa-unsorted::before, .fa-sort::before { content: "=EF=83=9C"; }
+
+.fa-sort-down::before, .fa-sort-desc::before { content: "=EF=83=9D"; }
+
+.fa-sort-up::before, .fa-sort-asc::before { content: "=EF=83=9E"; }
+
+.fa-envelope::before { content: "=EF=83=A0"; }
+
+.fa-linkedin::before { content: "=EF=83=A1"; }
+
+.fa-rotate-left::before, .fa-undo::before { content: "=EF=83=A2"; }
+
+.fa-legal::before, .fa-gavel::before { content: "=EF=83=A3"; }
+
+.fa-dashboard::before, .fa-tachometer::before { content: "=EF=83=A4"; }
+
+.fa-comment-o::before { content: "=EF=83=A5"; }
+
+.fa-comments-o::before { content: "=EF=83=A6"; }
+
+.fa-flash::before, .fa-bolt::before { content: "=EF=83=A7"; }
+
+.fa-sitemap::before { content: "=EF=83=A8"; }
+
+.fa-umbrella::before { content: "=EF=83=A9"; }
+
+.fa-paste::before, .fa-clipboard::before { content: "=EF=83=AA"; }
+
+.fa-lightbulb-o::before { content: "=EF=83=AB"; }
+
+.fa-exchange::before { content: "=EF=83=AC"; }
+
+.fa-cloud-download::before { content: "=EF=83=AD"; }
+
+.fa-cloud-upload::before { content: "=EF=83=AE"; }
+
+.fa-user-md::before { content: "=EF=83=B0"; }
+
+.fa-stethoscope::before { content: "=EF=83=B1"; }
+
+.fa-suitcase::before { content: "=EF=83=B2"; }
+
+.fa-bell-o::before { content: "=EF=82=A2"; }
+
+.fa-coffee::before { content: "=EF=83=B4"; }
+
+.fa-cutlery::before { content: "=EF=83=B5"; }
+
+.fa-file-text-o::before { content: "=EF=83=B6"; }
+
+.fa-building-o::before { content: "=EF=83=B7"; }
+
+.fa-hospital-o::before { content: "=EF=83=B8"; }
+
+.fa-ambulance::before { content: "=EF=83=B9"; }
+
+.fa-medkit::before { content: "=EF=83=BA"; }
+
+.fa-fighter-jet::before { content: "=EF=83=BB"; }
+
+.fa-beer::before { content: "=EF=83=BC"; }
+
+.fa-h-square::before { content: "=EF=83=BD"; }
+
+.fa-plus-square::before { content: "=EF=83=BE"; }
+
+.fa-angle-double-left::before { content: "=EF=84=80"; }
+
+.fa-angle-double-right::before { content: "=EF=84=81"; }
+
+.fa-angle-double-up::before { content: "=EF=84=82"; }
+
+.fa-angle-double-down::before { content: "=EF=84=83"; }
+
+.fa-angle-left::before { content: "=EF=84=84"; }
+
+.fa-angle-right::before { content: "=EF=84=85"; }
+
+.fa-angle-up::before { content: "=EF=84=86"; }
+
+.fa-angle-down::before { content: "=EF=84=87"; }
+
+.fa-desktop::before { content: "=EF=84=88"; }
+
+.fa-laptop::before { content: "=EF=84=89"; }
+
+.fa-tablet::before { content: "=EF=84=8A"; }
+
+.fa-mobile-phone::before, .fa-mobile::before { content: "=EF=84=8B"; }
+
+.fa-circle-o::before { content: "=EF=84=8C"; }
+
+.fa-quote-left::before { content: "=EF=84=8D"; }
+
+.fa-quote-right::before { content: "=EF=84=8E"; }
+
+.fa-spinner::before { content: "=EF=84=90"; }
+
+.fa-circle::before { content: "=EF=84=91"; }
+
+.fa-mail-reply::before, .fa-reply::before { content: "=EF=84=92"; }
+
+.fa-github-alt::before { content: "=EF=84=93"; }
+
+.fa-folder-o::before { content: "=EF=84=94"; }
+
+.fa-folder-open-o::before { content: "=EF=84=95"; }
+
+.fa-smile-o::before { content: "=EF=84=98"; }
+
+.fa-frown-o::before { content: "=EF=84=99"; }
+
+.fa-meh-o::before { content: "=EF=84=9A"; }
+
+.fa-gamepad::before { content: "=EF=84=9B"; }
+
+.fa-keyboard-o::before { content: "=EF=84=9C"; }
+
+.fa-flag-o::before { content: "=EF=84=9D"; }
+
+.fa-flag-checkered::before { content: "=EF=84=9E"; }
+
+.fa-terminal::before { content: "=EF=84=A0"; }
+
+.fa-code::before { content: "=EF=84=A1"; }
+
+.fa-mail-reply-all::before, .fa-reply-all::before { content: "=EF=84=A2"; }
+
+.fa-star-half-empty::before, .fa-star-half-full::before, .fa-star-half-o::b=
+efore { content: "=EF=84=A3"; }
+
+.fa-location-arrow::before { content: "=EF=84=A4"; }
+
+.fa-crop::before { content: "=EF=84=A5"; }
+
+.fa-code-fork::before { content: "=EF=84=A6"; }
+
+.fa-unlink::before, .fa-chain-broken::before { content: "=EF=84=A7"; }
+
+.fa-question::before { content: "=EF=84=A8"; }
+
+.fa-info::before { content: "=EF=84=A9"; }
+
+.fa-exclamation::before { content: "=EF=84=AA"; }
+
+.fa-superscript::before { content: "=EF=84=AB"; }
+
+.fa-subscript::before { content: "=EF=84=AC"; }
+
+.fa-eraser::before { content: "=EF=84=AD"; }
+
+.fa-puzzle-piece::before { content: "=EF=84=AE"; }
+
+.fa-microphone::before { content: "=EF=84=B0"; }
+
+.fa-microphone-slash::before { content: "=EF=84=B1"; }
+
+.fa-shield::before { content: "=EF=84=B2"; }
+
+.fa-calendar-o::before { content: "=EF=84=B3"; }
+
+.fa-fire-extinguisher::before { content: "=EF=84=B4"; }
+
+.fa-rocket::before { content: "=EF=84=B5"; }
+
+.fa-maxcdn::before { content: "=EF=84=B6"; }
+
+.fa-chevron-circle-left::before { content: "=EF=84=B7"; }
+
+.fa-chevron-circle-right::before { content: "=EF=84=B8"; }
+
+.fa-chevron-circle-up::before { content: "=EF=84=B9"; }
+
+.fa-chevron-circle-down::before { content: "=EF=84=BA"; }
+
+.fa-html5::before { content: "=EF=84=BB"; }
+
+.fa-css3::before { content: "=EF=84=BC"; }
+
+.fa-anchor::before { content: "=EF=84=BD"; }
+
+.fa-unlock-alt::before { content: "=EF=84=BE"; }
+
+.fa-bullseye::before { content: "=EF=85=80"; }
+
+.fa-ellipsis-h::before { content: "=EF=85=81"; }
+
+.fa-ellipsis-v::before { content: "=EF=85=82"; }
+
+.fa-rss-square::before { content: "=EF=85=83"; }
+
+.fa-play-circle::before { content: "=EF=85=84"; }
+
+.fa-ticket::before { content: "=EF=85=85"; }
+
+.fa-minus-square::before { content: "=EF=85=86"; }
+
+.fa-minus-square-o::before { content: "=EF=85=87"; }
+
+.fa-level-up::before { content: "=EF=85=88"; }
+
+.fa-level-down::before { content: "=EF=85=89"; }
+
+.fa-check-square::before { content: "=EF=85=8A"; }
+
+.fa-pencil-square::before { content: "=EF=85=8B"; }
+
+.fa-external-link-square::before { content: "=EF=85=8C"; }
+
+.fa-share-square::before { content: "=EF=85=8D"; }
+
+.fa-compass::before { content: "=EF=85=8E"; }
+
+.fa-toggle-down::before, .fa-caret-square-o-down::before { content: "=EF=85=
+=90"; }
+
+.fa-toggle-up::before, .fa-caret-square-o-up::before { content: "=EF=85=91"=
+; }
+
+.fa-toggle-right::before, .fa-caret-square-o-right::before { content: "=EF=
+=85=92"; }
+
+.fa-euro::before, .fa-eur::before { content: "=EF=85=93"; }
+
+.fa-gbp::before { content: "=EF=85=94"; }
+
+.fa-dollar::before, .fa-usd::before { content: "=EF=85=95"; }
+
+.fa-rupee::before, .fa-inr::before { content: "=EF=85=96"; }
+
+.fa-cny::before, .fa-rmb::before, .fa-yen::before, .fa-jpy::before { conten=
+t: "=EF=85=97"; }
+
+.fa-ruble::before, .fa-rouble::before, .fa-rub::before { content: "=EF=85=
+=98"; }
+
+.fa-won::before, .fa-krw::before { content: "=EF=85=99"; }
+
+.fa-bitcoin::before, .fa-btc::before { content: "=EF=85=9A"; }
+
+.fa-file::before { content: "=EF=85=9B"; }
+
+.fa-file-text::before { content: "=EF=85=9C"; }
+
+.fa-sort-alpha-asc::before { content: "=EF=85=9D"; }
+
+.fa-sort-alpha-desc::before { content: "=EF=85=9E"; }
+
+.fa-sort-amount-asc::before { content: "=EF=85=A0"; }
+
+.fa-sort-amount-desc::before { content: "=EF=85=A1"; }
+
+.fa-sort-numeric-asc::before { content: "=EF=85=A2"; }
+
+.fa-sort-numeric-desc::before { content: "=EF=85=A3"; }
+
+.fa-thumbs-up::before { content: "=EF=85=A4"; }
+
+.fa-thumbs-down::before { content: "=EF=85=A5"; }
+
+.fa-youtube-square::before { content: "=EF=85=A6"; }
+
+.fa-youtube::before { content: "=EF=85=A7"; }
+
+.fa-xing::before { content: "=EF=85=A8"; }
+
+.fa-xing-square::before { content: "=EF=85=A9"; }
+
+.fa-youtube-play::before { content: "=EF=85=AA"; }
+
+.fa-dropbox::before { content: "=EF=85=AB"; }
+
+.fa-stack-overflow::before { content: "=EF=85=AC"; }
+
+.fa-instagram::before { content: "=EF=85=AD"; }
+
+.fa-flickr::before { content: "=EF=85=AE"; }
+
+.fa-adn::before { content: "=EF=85=B0"; }
+
+.fa-bitbucket::before { content: "=EF=85=B1"; }
+
+.fa-bitbucket-square::before { content: "=EF=85=B2"; }
+
+.fa-tumblr::before { content: "=EF=85=B3"; }
+
+.fa-tumblr-square::before { content: "=EF=85=B4"; }
+
+.fa-long-arrow-down::before { content: "=EF=85=B5"; }
+
+.fa-long-arrow-up::before { content: "=EF=85=B6"; }
+
+.fa-long-arrow-left::before { content: "=EF=85=B7"; }
+
+.fa-long-arrow-right::before { content: "=EF=85=B8"; }
+
+.fa-apple::before { content: "=EF=85=B9"; }
+
+.fa-windows::before { content: "=EF=85=BA"; }
+
+.fa-android::before { content: "=EF=85=BB"; }
+
+.fa-linux::before { content: "=EF=85=BC"; }
+
+.fa-dribbble::before { content: "=EF=85=BD"; }
+
+.fa-skype::before { content: "=EF=85=BE"; }
+
+.fa-foursquare::before { content: "=EF=86=80"; }
+
+.fa-trello::before { content: "=EF=86=81"; }
+
+.fa-female::before { content: "=EF=86=82"; }
+
+.fa-male::before { content: "=EF=86=83"; }
+
+.fa-gittip::before, .fa-gratipay::before { content: "=EF=86=84"; }
+
+.fa-sun-o::before { content: "=EF=86=85"; }
+
+.fa-moon-o::before { content: "=EF=86=86"; }
+
+.fa-archive::before { content: "=EF=86=87"; }
+
+.fa-bug::before { content: "=EF=86=88"; }
+
+.fa-vk::before { content: "=EF=86=89"; }
+
+.fa-weibo::before { content: "=EF=86=8A"; }
+
+.fa-renren::before { content: "=EF=86=8B"; }
+
+.fa-pagelines::before { content: "=EF=86=8C"; }
+
+.fa-stack-exchange::before { content: "=EF=86=8D"; }
+
+.fa-arrow-circle-o-right::before { content: "=EF=86=8E"; }
+
+.fa-arrow-circle-o-left::before { content: "=EF=86=90"; }
+
+.fa-toggle-left::before, .fa-caret-square-o-left::before { content: "=EF=86=
+=91"; }
+
+.fa-dot-circle-o::before { content: "=EF=86=92"; }
+
+.fa-wheelchair::before { content: "=EF=86=93"; }
+
+.fa-vimeo-square::before { content: "=EF=86=94"; }
+
+.fa-turkish-lira::before, .fa-try::before { content: "=EF=86=95"; }
+
+.fa-plus-square-o::before { content: "=EF=86=96"; }
+
+.fa-space-shuttle::before { content: "=EF=86=97"; }
+
+.fa-slack::before { content: "=EF=86=98"; }
+
+.fa-envelope-square::before { content: "=EF=86=99"; }
+
+.fa-wordpress::before { content: "=EF=86=9A"; }
+
+.fa-openid::before { content: "=EF=86=9B"; }
+
+.fa-institution::before, .fa-bank::before, .fa-university::before { content=
+: "=EF=86=9C"; }
+
+.fa-mortar-board::before, .fa-graduation-cap::before { content: "=EF=86=9D"=
+; }
+
+.fa-yahoo::before { content: "=EF=86=9E"; }
+
+.fa-google::before { content: "=EF=86=A0"; }
+
+.fa-reddit::before { content: "=EF=86=A1"; }
+
+.fa-reddit-square::before { content: "=EF=86=A2"; }
+
+.fa-stumbleupon-circle::before { content: "=EF=86=A3"; }
+
+.fa-stumbleupon::before { content: "=EF=86=A4"; }
+
+.fa-delicious::before { content: "=EF=86=A5"; }
+
+.fa-digg::before { content: "=EF=86=A6"; }
+
+.fa-pied-piper-pp::before { content: "=EF=86=A7"; }
+
+.fa-pied-piper-alt::before { content: "=EF=86=A8"; }
+
+.fa-drupal::before { content: "=EF=86=A9"; }
+
+.fa-joomla::before { content: "=EF=86=AA"; }
+
+.fa-language::before { content: "=EF=86=AB"; }
+
+.fa-fax::before { content: "=EF=86=AC"; }
+
+.fa-building::before { content: "=EF=86=AD"; }
+
+.fa-child::before { content: "=EF=86=AE"; }
+
+.fa-paw::before { content: "=EF=86=B0"; }
+
+.fa-spoon::before { content: "=EF=86=B1"; }
+
+.fa-cube::before { content: "=EF=86=B2"; }
+
+.fa-cubes::before { content: "=EF=86=B3"; }
+
+.fa-behance::before { content: "=EF=86=B4"; }
+
+.fa-behance-square::before { content: "=EF=86=B5"; }
+
+.fa-steam::before { content: "=EF=86=B6"; }
+
+.fa-steam-square::before { content: "=EF=86=B7"; }
+
+.fa-recycle::before { content: "=EF=86=B8"; }
+
+.fa-automobile::before, .fa-car::before { content: "=EF=86=B9"; }
+
+.fa-cab::before, .fa-taxi::before { content: "=EF=86=BA"; }
+
+.fa-tree::before { content: "=EF=86=BB"; }
+
+.fa-spotify::before { content: "=EF=86=BC"; }
+
+.fa-deviantart::before { content: "=EF=86=BD"; }
+
+.fa-soundcloud::before { content: "=EF=86=BE"; }
+
+.fa-database::before { content: "=EF=87=80"; }
+
+.fa-file-pdf-o::before { content: "=EF=87=81"; }
+
+.fa-file-word-o::before { content: "=EF=87=82"; }
+
+.fa-file-excel-o::before { content: "=EF=87=83"; }
+
+.fa-file-powerpoint-o::before { content: "=EF=87=84"; }
+
+.fa-file-photo-o::before, .fa-file-picture-o::before, .fa-file-image-o::bef=
+ore { content: "=EF=87=85"; }
+
+.fa-file-zip-o::before, .fa-file-archive-o::before { content: "=EF=87=86"; =
+}
+
+.fa-file-sound-o::before, .fa-file-audio-o::before { content: "=EF=87=87"; =
+}
+
+.fa-file-movie-o::before, .fa-file-video-o::before { content: "=EF=87=88"; =
+}
+
+.fa-file-code-o::before { content: "=EF=87=89"; }
+
+.fa-vine::before { content: "=EF=87=8A"; }
+
+.fa-codepen::before { content: "=EF=87=8B"; }
+
+.fa-jsfiddle::before { content: "=EF=87=8C"; }
+
+.fa-life-bouy::before, .fa-life-buoy::before, .fa-life-saver::before, .fa-s=
+upport::before, .fa-life-ring::before { content: "=EF=87=8D"; }
+
+.fa-circle-o-notch::before { content: "=EF=87=8E"; }
+
+.fa-ra::before, .fa-resistance::before, .fa-rebel::before { content: "=EF=
+=87=90"; }
+
+.fa-ge::before, .fa-empire::before { content: "=EF=87=91"; }
+
+.fa-git-square::before { content: "=EF=87=92"; }
+
+.fa-git::before { content: "=EF=87=93"; }
+
+.fa-y-combinator-square::before, .fa-yc-square::before, .fa-hacker-news::be=
+fore { content: "=EF=87=94"; }
+
+.fa-tencent-weibo::before { content: "=EF=87=95"; }
+
+.fa-qq::before { content: "=EF=87=96"; }
+
+.fa-wechat::before, .fa-weixin::before { content: "=EF=87=97"; }
+
+.fa-send::before, .fa-paper-plane::before { content: "=EF=87=98"; }
+
+.fa-send-o::before, .fa-paper-plane-o::before { content: "=EF=87=99"; }
+
+.fa-history::before { content: "=EF=87=9A"; }
+
+.fa-circle-thin::before { content: "=EF=87=9B"; }
+
+.fa-header::before { content: "=EF=87=9C"; }
+
+.fa-paragraph::before { content: "=EF=87=9D"; }
+
+.fa-sliders::before { content: "=EF=87=9E"; }
+
+.fa-share-alt::before { content: "=EF=87=A0"; }
+
+.fa-share-alt-square::before { content: "=EF=87=A1"; }
+
+.fa-bomb::before { content: "=EF=87=A2"; }
+
+.fa-soccer-ball-o::before, .fa-futbol-o::before { content: "=EF=87=A3"; }
+
+.fa-tty::before { content: "=EF=87=A4"; }
+
+.fa-binoculars::before { content: "=EF=87=A5"; }
+
+.fa-plug::before { content: "=EF=87=A6"; }
+
+.fa-slideshare::before { content: "=EF=87=A7"; }
+
+.fa-twitch::before { content: "=EF=87=A8"; }
+
+.fa-yelp::before { content: "=EF=87=A9"; }
+
+.fa-newspaper-o::before { content: "=EF=87=AA"; }
+
+.fa-wifi::before { content: "=EF=87=AB"; }
+
+.fa-calculator::before { content: "=EF=87=AC"; }
+
+.fa-paypal::before { content: "=EF=87=AD"; }
+
+.fa-google-wallet::before { content: "=EF=87=AE"; }
+
+.fa-cc-visa::before { content: "=EF=87=B0"; }
+
+.fa-cc-mastercard::before { content: "=EF=87=B1"; }
+
+.fa-cc-discover::before { content: "=EF=87=B2"; }
+
+.fa-cc-amex::before { content: "=EF=87=B3"; }
+
+.fa-cc-paypal::before { content: "=EF=87=B4"; }
+
+.fa-cc-stripe::before { content: "=EF=87=B5"; }
+
+.fa-bell-slash::before { content: "=EF=87=B6"; }
+
+.fa-bell-slash-o::before { content: "=EF=87=B7"; }
+
+.fa-trash::before { content: "=EF=87=B8"; }
+
+.fa-copyright::before { content: "=EF=87=B9"; }
+
+.fa-at::before { content: "=EF=87=BA"; }
+
+.fa-eyedropper::before { content: "=EF=87=BB"; }
+
+.fa-paint-brush::before { content: "=EF=87=BC"; }
+
+.fa-birthday-cake::before { content: "=EF=87=BD"; }
+
+.fa-area-chart::before { content: "=EF=87=BE"; }
+
+.fa-pie-chart::before { content: "=EF=88=80"; }
+
+.fa-line-chart::before { content: "=EF=88=81"; }
+
+.fa-lastfm::before { content: "=EF=88=82"; }
+
+.fa-lastfm-square::before { content: "=EF=88=83"; }
+
+.fa-toggle-off::before { content: "=EF=88=84"; }
+
+.fa-toggle-on::before { content: "=EF=88=85"; }
+
+.fa-bicycle::before { content: "=EF=88=86"; }
+
+.fa-bus::before { content: "=EF=88=87"; }
+
+.fa-ioxhost::before { content: "=EF=88=88"; }
+
+.fa-angellist::before { content: "=EF=88=89"; }
+
+.fa-cc::before { content: "=EF=88=8A"; }
+
+.fa-shekel::before, .fa-sheqel::before, .fa-ils::before { content: "=EF=88=
+=8B"; }
+
+.fa-meanpath::before { content: "=EF=88=8C"; }
+
+.fa-buysellads::before { content: "=EF=88=8D"; }
+
+.fa-connectdevelop::before { content: "=EF=88=8E"; }
+
+.fa-dashcube::before { content: "=EF=88=90"; }
+
+.fa-forumbee::before { content: "=EF=88=91"; }
+
+.fa-leanpub::before { content: "=EF=88=92"; }
+
+.fa-sellsy::before { content: "=EF=88=93"; }
+
+.fa-shirtsinbulk::before { content: "=EF=88=94"; }
+
+.fa-simplybuilt::before { content: "=EF=88=95"; }
+
+.fa-skyatlas::before { content: "=EF=88=96"; }
+
+.fa-cart-plus::before { content: "=EF=88=97"; }
+
+.fa-cart-arrow-down::before { content: "=EF=88=98"; }
+
+.fa-diamond::before { content: "=EF=88=99"; }
+
+.fa-ship::before { content: "=EF=88=9A"; }
+
+.fa-user-secret::before { content: "=EF=88=9B"; }
+
+.fa-motorcycle::before { content: "=EF=88=9C"; }
+
+.fa-street-view::before { content: "=EF=88=9D"; }
+
+.fa-heartbeat::before { content: "=EF=88=9E"; }
+
+.fa-venus::before { content: "=EF=88=A1"; }
+
+.fa-mars::before { content: "=EF=88=A2"; }
+
+.fa-mercury::before { content: "=EF=88=A3"; }
+
+.fa-intersex::before, .fa-transgender::before { content: "=EF=88=A4"; }
+
+.fa-transgender-alt::before { content: "=EF=88=A5"; }
+
+.fa-venus-double::before { content: "=EF=88=A6"; }
+
+.fa-mars-double::before { content: "=EF=88=A7"; }
+
+.fa-venus-mars::before { content: "=EF=88=A8"; }
+
+.fa-mars-stroke::before { content: "=EF=88=A9"; }
+
+.fa-mars-stroke-v::before { content: "=EF=88=AA"; }
+
+.fa-mars-stroke-h::before { content: "=EF=88=AB"; }
+
+.fa-neuter::before { content: "=EF=88=AC"; }
+
+.fa-genderless::before { content: "=EF=88=AD"; }
+
+.fa-facebook-official::before { content: "=EF=88=B0"; }
+
+.fa-pinterest-p::before { content: "=EF=88=B1"; }
+
+.fa-whatsapp::before { content: "=EF=88=B2"; }
+
+.fa-server::before { content: "=EF=88=B3"; }
+
+.fa-user-plus::before { content: "=EF=88=B4"; }
+
+.fa-user-times::before { content: "=EF=88=B5"; }
+
+.fa-hotel::before, .fa-bed::before { content: "=EF=88=B6"; }
+
+.fa-viacoin::before { content: "=EF=88=B7"; }
+
+.fa-train::before { content: "=EF=88=B8"; }
+
+.fa-subway::before { content: "=EF=88=B9"; }
+
+.fa-medium::before { content: "=EF=88=BA"; }
+
+.fa-yc::before, .fa-y-combinator::before { content: "=EF=88=BB"; }
+
+.fa-optin-monster::before { content: "=EF=88=BC"; }
+
+.fa-opencart::before { content: "=EF=88=BD"; }
+
+.fa-expeditedssl::before { content: "=EF=88=BE"; }
+
+.fa-battery-4::before, .fa-battery::before, .fa-battery-full::before { cont=
+ent: "=EF=89=80"; }
+
+.fa-battery-3::before, .fa-battery-three-quarters::before { content: "=EF=
+=89=81"; }
+
+.fa-battery-2::before, .fa-battery-half::before { content: "=EF=89=82"; }
+
+.fa-battery-1::before, .fa-battery-quarter::before { content: "=EF=89=83"; =
+}
+
+.fa-battery-0::before, .fa-battery-empty::before { content: "=EF=89=84"; }
+
+.fa-mouse-pointer::before { content: "=EF=89=85"; }
+
+.fa-i-cursor::before { content: "=EF=89=86"; }
+
+.fa-object-group::before { content: "=EF=89=87"; }
+
+.fa-object-ungroup::before { content: "=EF=89=88"; }
+
+.fa-sticky-note::before { content: "=EF=89=89"; }
+
+.fa-sticky-note-o::before { content: "=EF=89=8A"; }
+
+.fa-cc-jcb::before { content: "=EF=89=8B"; }
+
+.fa-cc-diners-club::before { content: "=EF=89=8C"; }
+
+.fa-clone::before { content: "=EF=89=8D"; }
+
+.fa-balance-scale::before { content: "=EF=89=8E"; }
+
+.fa-hourglass-o::before { content: "=EF=89=90"; }
+
+.fa-hourglass-1::before, .fa-hourglass-start::before { content: "=EF=89=91"=
+; }
+
+.fa-hourglass-2::before, .fa-hourglass-half::before { content: "=EF=89=92";=
+ }
+
+.fa-hourglass-3::before, .fa-hourglass-end::before { content: "=EF=89=93"; =
+}
+
+.fa-hourglass::before { content: "=EF=89=94"; }
+
+.fa-hand-grab-o::before, .fa-hand-rock-o::before { content: "=EF=89=95"; }
+
+.fa-hand-stop-o::before, .fa-hand-paper-o::before { content: "=EF=89=96"; }
+
+.fa-hand-scissors-o::before { content: "=EF=89=97"; }
+
+.fa-hand-lizard-o::before { content: "=EF=89=98"; }
+
+.fa-hand-spock-o::before { content: "=EF=89=99"; }
+
+.fa-hand-pointer-o::before { content: "=EF=89=9A"; }
+
+.fa-hand-peace-o::before { content: "=EF=89=9B"; }
+
+.fa-trademark::before { content: "=EF=89=9C"; }
+
+.fa-registered::before { content: "=EF=89=9D"; }
+
+.fa-creative-commons::before { content: "=EF=89=9E"; }
+
+.fa-gg::before { content: "=EF=89=A0"; }
+
+.fa-gg-circle::before { content: "=EF=89=A1"; }
+
+.fa-tripadvisor::before { content: "=EF=89=A2"; }
+
+.fa-odnoklassniki::before { content: "=EF=89=A3"; }
+
+.fa-odnoklassniki-square::before { content: "=EF=89=A4"; }
+
+.fa-get-pocket::before { content: "=EF=89=A5"; }
+
+.fa-wikipedia-w::before { content: "=EF=89=A6"; }
+
+.fa-safari::before { content: "=EF=89=A7"; }
+
+.fa-chrome::before { content: "=EF=89=A8"; }
+
+.fa-firefox::before { content: "=EF=89=A9"; }
+
+.fa-opera::before { content: "=EF=89=AA"; }
+
+.fa-internet-explorer::before { content: "=EF=89=AB"; }
+
+.fa-tv::before, .fa-television::before { content: "=EF=89=AC"; }
+
+.fa-contao::before { content: "=EF=89=AD"; }
+
+.fa-500px::before { content: "=EF=89=AE"; }
+
+.fa-amazon::before { content: "=EF=89=B0"; }
+
+.fa-calendar-plus-o::before { content: "=EF=89=B1"; }
+
+.fa-calendar-minus-o::before { content: "=EF=89=B2"; }
+
+.fa-calendar-times-o::before { content: "=EF=89=B3"; }
+
+.fa-calendar-check-o::before { content: "=EF=89=B4"; }
+
+.fa-industry::before { content: "=EF=89=B5"; }
+
+.fa-map-pin::before { content: "=EF=89=B6"; }
+
+.fa-map-signs::before { content: "=EF=89=B7"; }
+
+.fa-map-o::before { content: "=EF=89=B8"; }
+
+.fa-map::before { content: "=EF=89=B9"; }
+
+.fa-commenting::before { content: "=EF=89=BA"; }
+
+.fa-commenting-o::before { content: "=EF=89=BB"; }
+
+.fa-houzz::before { content: "=EF=89=BC"; }
+
+.fa-vimeo::before { content: "=EF=89=BD"; }
+
+.fa-black-tie::before { content: "=EF=89=BE"; }
+
+.fa-fonticons::before { content: "=EF=8A=80"; }
+
+.fa-reddit-alien::before { content: "=EF=8A=81"; }
+
+.fa-edge::before { content: "=EF=8A=82"; }
+
+.fa-credit-card-alt::before { content: "=EF=8A=83"; }
+
+.fa-codiepie::before { content: "=EF=8A=84"; }
+
+.fa-modx::before { content: "=EF=8A=85"; }
+
+.fa-fort-awesome::before { content: "=EF=8A=86"; }
+
+.fa-usb::before { content: "=EF=8A=87"; }
+
+.fa-product-hunt::before { content: "=EF=8A=88"; }
+
+.fa-mixcloud::before { content: "=EF=8A=89"; }
+
+.fa-scribd::before { content: "=EF=8A=8A"; }
+
+.fa-pause-circle::before { content: "=EF=8A=8B"; }
+
+.fa-pause-circle-o::before { content: "=EF=8A=8C"; }
+
+.fa-stop-circle::before { content: "=EF=8A=8D"; }
+
+.fa-stop-circle-o::before { content: "=EF=8A=8E"; }
+
+.fa-shopping-bag::before { content: "=EF=8A=90"; }
+
+.fa-shopping-basket::before { content: "=EF=8A=91"; }
+
+.fa-hashtag::before { content: "=EF=8A=92"; }
+
+.fa-bluetooth::before { content: "=EF=8A=93"; }
+
+.fa-bluetooth-b::before { content: "=EF=8A=94"; }
+
+.fa-percent::before { content: "=EF=8A=95"; }
+
+.fa-gitlab::before { content: "=EF=8A=96"; }
+
+.fa-wpbeginner::before { content: "=EF=8A=97"; }
+
+.fa-wpforms::before { content: "=EF=8A=98"; }
+
+.fa-envira::before { content: "=EF=8A=99"; }
+
+.fa-universal-access::before { content: "=EF=8A=9A"; }
+
+.fa-wheelchair-alt::before { content: "=EF=8A=9B"; }
+
+.fa-question-circle-o::before { content: "=EF=8A=9C"; }
+
+.fa-blind::before { content: "=EF=8A=9D"; }
+
+.fa-audio-description::before { content: "=EF=8A=9E"; }
+
+.fa-volume-control-phone::before { content: "=EF=8A=A0"; }
+
+.fa-braille::before { content: "=EF=8A=A1"; }
+
+.fa-assistive-listening-systems::before { content: "=EF=8A=A2"; }
+
+.fa-asl-interpreting::before, .fa-american-sign-language-interpreting::befo=
+re { content: "=EF=8A=A3"; }
+
+.fa-deafness::before, .fa-hard-of-hearing::before, .fa-deaf::before { conte=
+nt: "=EF=8A=A4"; }
+
+.fa-glide::before { content: "=EF=8A=A5"; }
+
+.fa-glide-g::before { content: "=EF=8A=A6"; }
+
+.fa-signing::before, .fa-sign-language::before { content: "=EF=8A=A7"; }
+
+.fa-low-vision::before { content: "=EF=8A=A8"; }
+
+.fa-viadeo::before { content: "=EF=8A=A9"; }
+
+.fa-viadeo-square::before { content: "=EF=8A=AA"; }
+
+.fa-snapchat::before { content: "=EF=8A=AB"; }
+
+.fa-snapchat-ghost::before { content: "=EF=8A=AC"; }
+
+.fa-snapchat-square::before { content: "=EF=8A=AD"; }
+
+.fa-pied-piper::before { content: "=EF=8A=AE"; }
+
+.fa-first-order::before { content: "=EF=8A=B0"; }
+
+.fa-yoast::before { content: "=EF=8A=B1"; }
+
+.fa-themeisle::before { content: "=EF=8A=B2"; }
+
+.fa-google-plus-circle::before, .fa-google-plus-official::before { content:=
+ "=EF=8A=B3"; }
+
+.fa-fa::before, .fa-font-awesome::before { content: "=EF=8A=B4"; }
+
+.fa-handshake-o::before { content: "=EF=8A=B5"; }
+
+.fa-envelope-open::before { content: "=EF=8A=B6"; }
+
+.fa-envelope-open-o::before { content: "=EF=8A=B7"; }
+
+.fa-linode::before { content: "=EF=8A=B8"; }
+
+.fa-address-book::before { content: "=EF=8A=B9"; }
+
+.fa-address-book-o::before { content: "=EF=8A=BA"; }
+
+.fa-vcard::before, .fa-address-card::before { content: "=EF=8A=BB"; }
+
+.fa-vcard-o::before, .fa-address-card-o::before { content: "=EF=8A=BC"; }
+
+.fa-user-circle::before { content: "=EF=8A=BD"; }
+
+.fa-user-circle-o::before { content: "=EF=8A=BE"; }
+
+.fa-user-o::before { content: "=EF=8B=80"; }
+
+.fa-id-badge::before { content: "=EF=8B=81"; }
+
+.fa-drivers-license::before, .fa-id-card::before { content: "=EF=8B=82"; }
+
+.fa-drivers-license-o::before, .fa-id-card-o::before { content: "=EF=8B=83"=
+; }
+
+.fa-quora::before { content: "=EF=8B=84"; }
+
+.fa-free-code-camp::before { content: "=EF=8B=85"; }
+
+.fa-telegram::before { content: "=EF=8B=86"; }
+
+.fa-thermometer-4::before, .fa-thermometer::before, .fa-thermometer-full::b=
+efore { content: "=EF=8B=87"; }
+
+.fa-thermometer-3::before, .fa-thermometer-three-quarters::before { content=
+: "=EF=8B=88"; }
+
+.fa-thermometer-2::before, .fa-thermometer-half::before { content: "=EF=8B=
+=89"; }
+
+.fa-thermometer-1::before, .fa-thermometer-quarter::before { content: "=EF=
+=8B=8A"; }
+
+.fa-thermometer-0::before, .fa-thermometer-empty::before { content: "=EF=8B=
+=8B"; }
+
+.fa-shower::before { content: "=EF=8B=8C"; }
+
+.fa-bathtub::before, .fa-s15::before, .fa-bath::before { content: "=EF=8B=
+=8D"; }
+
+.fa-podcast::before { content: "=EF=8B=8E"; }
+
+.fa-window-maximize::before { content: "=EF=8B=90"; }
+
+.fa-window-minimize::before { content: "=EF=8B=91"; }
+
+.fa-window-restore::before { content: "=EF=8B=92"; }
+
+.fa-times-rectangle::before, .fa-window-close::before { content: "=EF=8B=93=
+"; }
+
+.fa-times-rectangle-o::before, .fa-window-close-o::before { content: "=EF=
+=8B=94"; }
+
+.fa-bandcamp::before { content: "=EF=8B=95"; }
+
+.fa-grav::before { content: "=EF=8B=96"; }
+
+.fa-etsy::before { content: "=EF=8B=97"; }
+
+.fa-imdb::before { content: "=EF=8B=98"; }
+
+.fa-ravelry::before { content: "=EF=8B=99"; }
+
+.fa-eercast::before { content: "=EF=8B=9A"; }
+
+.fa-microchip::before { content: "=EF=8B=9B"; }
+
+.fa-snowflake-o::before { content: "=EF=8B=9C"; }
+
+.fa-superpowers::before { content: "=EF=8B=9D"; }
+
+.fa-wpexplorer::before { content: "=EF=8B=9E"; }
+
+.fa-meetup::before { content: "=EF=8B=A0"; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0px; margi=
+n: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); border: 0px; }
+
+.sr-only-focusable:active, .sr-only-focusable:focus { position: static; wid=
+th: auto; height: auto; margin: 0px; overflow: visible; clip: auto; }
+------MultipartBoundary--XltSfeKDha3yxaqWot69ZKZO5bicY0EA8VQYklsI0X----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://tracker-vaults.makerdao.network/static/logo_no_bg.png
+
+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
+qIZdfIuYMebRj+pDAsYzG/S7wcYsl9AqjyW4PnuYWZs2eAEzsbFiJqZM+kfyuFWX0DI2ZFZmZmY5
+KJSeYcv2txb2Dn2VOLPL1b5aVaoMccFa/cE9o5T6+B3sH9DfMl3QA3l3MY9SYDghYIYO3H9A6ItZ
+TKzIJKRpxkcTjIeBrJo1F0ZaNSZCFpkW6EembBnkU7+SCpw+t+2A4sLUdysqWLg5sm8KSMmIqZS5
+xdVmRqhoxAvPXAvTLWMZ08PqTGAb39dgBqwA+cGTY59th3uSyqRMGHfk4Q4XkPcmDWHuULENDzjS
+iFE+E+El1mXV2YlG+76hHL7aMxDsgMzg/Ycvk1wxpFML5vFEfpL9GYhgQCZm0f50gwvFreIN0YWg
+kQItJy9CRd7q5y/Y3xXha8fG7D2LhQBig8NYr9DRmhk2wAkx97pJXuD+kD27wuEiDnR91Eu4C37E
+15rX5bTCCAzFJ2eabF8q1BjmDva3hYR2z1uZb7sQSWfwmIzghhnESDDsxSpilhbd3wlylmP+HcXU
+gZ/F0yyktlBa+wOV/Q0VO3/eLK116H3nfgbu//L6/7nQMfZw/wUxR1sAxKQ2MgAADRppVFh0WE1M
+OmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6
+cmVTek5UY3prYzlkIj8+Cjx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1w
+dGs9IlhNUCBDb3JlIDQuNC4wLUV4aXYyIj4KIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3
+dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgPHJkZjpEZXNjcmlwdGlvbiBy
+ZGY6YWJvdXQ9IiIKICAgIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+bW0vIgogICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9S
+ZXNvdXJjZUV2ZW50IyIKICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMv
+MS4xLyIKICAgIHhtbG5zOkdJTVA9Imh0dHA6Ly93d3cuZ2ltcC5vcmcveG1wLyIKICAgIHhtbG5z
+OnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8xLjAvIgogICAgeG1sbnM6eG1wPSJodHRw
+Oi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIgogICB4bXBNTTpEb2N1bWVudElEPSJnaW1wOmRvY2lk
+OmdpbXA6ODZiZmMyOWUtNTdmMS00ZWVlLWFlZDYtYWRkNmU1MDE4OGM1IgogICB4bXBNTTpJbnN0
+YW5jZUlEPSJ4bXAuaWlkOmZjMjFjOGJhLTllZWYtNDFlYS05ZmMwLTY2MzRmMmNlZTRkMiIKICAg
+eG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjRlN2ViNmY2LWU1OWYtNDA3YS1iNjk5
+LWVmNGZmZmNjOTFkYyIKICAgZGM6Rm9ybWF0PSJpbWFnZS9wbmciCiAgIEdJTVA6QVBJPSIyLjAi
+CiAgIEdJTVA6UGxhdGZvcm09IkxpbnV4IgogICBHSU1QOlRpbWVTdGFtcD0iMTY0NjM5MjM2Mjg1
+NDQ5NyIKICAgR0lNUDpWZXJzaW9uPSIyLjEwLjI4IgogICB0aWZmOk9yaWVudGF0aW9uPSIxIgog
+ICB4bXA6Q3JlYXRvclRvb2w9IkdJTVAgMi4xMCI+CiAgIDx4bXBNTTpIaXN0b3J5PgogICAgPHJk
+ZjpCYWc+CiAgICAgPHJkZjpsaQogICAgICBzdEV2dDphY3Rpb249InNhdmVkIgogICAgICBzdEV2
+dDpjaGFuZ2VkPSIvIgogICAgICBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmViNTYzNThiLWE4
+ZTgtNGFlNi04OWM5LWEzNzUwZGRiNDdmMSIKICAgICAgc3RFdnQ6c29mdHdhcmVBZ2VudD0iR2lt
+cCAyLjEwIChMaW51eCkiCiAgICAgIHN0RXZ0OndoZW49IjIwMjItMDMtMDRUMTI6MTI6NDIrMDE6
+MDAiLz4KICAgIDwvcmRmOkJhZz4KICAgPC94bXBNTTpIaXN0b3J5PgogIDwvcmRmOkRlc2NyaXB0
+aW9uPgogPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+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
+wc5IbK4AAAAASUVORK5CYII=
+
+------MultipartBoundary--XltSfeKDha3yxaqWot69ZKZO5bicY0EA8VQYklsI0X----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://tracker-vaults.makerdao.network/static/powered_by_tf_no_bg.png
+
+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
+rkJggg==
+
+------MultipartBoundary--XltSfeKDha3yxaqWot69ZKZO5bicY0EA8VQYklsI0X------
